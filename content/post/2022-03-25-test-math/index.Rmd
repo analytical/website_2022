@@ -1,14 +1,14 @@
 ---
-title: Testing el nuevo Wowchemy
+title: test math
 author: ''
 date: '2022-03-25'
-slug: hi-hugo
+slug: test-math
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-03-25T21:47:40-03:00'
+lastmod: '2022-03-25T23:15:17-03:00'
 featured: no
 image:
   caption: ''
@@ -17,14 +17,12 @@ image:
 projects: []
 ---
 
-# Método de Monte Carlo
+# test
 
-$y = x$
+$x = y$
 
-$$y = x^{2}$$
-
+$$x = y^2$$
 ```{r}
-
-hist(rnorm(1000), col = 'blue')
+hist(rnorm(1000))
 ```
 
