@@ -36,14 +36,23 @@ experience:
         * Diseño de muestreo de aceptación
         * Gestión de Certificación ISO 9001
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Estadístico de calidad y Químico de Desarrollo
+    company: Bureau Veritas Chile - Diivisión Minería
+    company_url: 'www.bureauveritas.cl'
+    company_logo:
+    location: Santiago
+    date_start: '2013-05-06'
+    date_end: '2018-07-01'
+    description:
+    
+  - title: Jefe de Proyecto Unidad de Estadística y Transferencia Tecnológica
+    company: Centro de Metrología Química - Fundación Chile
+    company_url: 'www.fch.cl'
+    company_logo:
+    location: Santiago
+    date_start: '2004-03-01'
+    date_end: '2013-05-01'
+    description: 
 
 design:
   columns: '2'
