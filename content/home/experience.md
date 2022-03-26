@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: Experiencia Profesional
 subtitle:
 
 # Date format for experience
@@ -22,19 +22,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Gestor de Calidad de Billetes & Monedas
+    company: Banco Central de Chile
+    company_url: 'www.bcentral.cl'
+    company_logo: 
+    location: Santiago
+    date_start: '2018-07-15'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Control de Calidad
+        * Diseño de muestreo de aceptación
+        * Gestión de Certificación ISO 9001
         
   - title: Professor of Semiconductor Physics
     company: University X

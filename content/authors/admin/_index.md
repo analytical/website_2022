@@ -1,27 +1,28 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Metrólogo Químico con experiencia en la aplicación de métodos estadísticos modernos en Química Analítica.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
+  - course: Magíster en Estadística
+    institution: Pintificia Universidad Católica de Chile
+    year: 2006
+  - course: Químico
+    institution: Universidad de Chile
+    year: 2004
+  - course: Bioquímico
+    institution: Universidad de Chile
+    year: 2002
+email: "cvgomez@gmail.com"
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Chemometrics/Quimiometría
+- Metrología Química
+- Estadística Computacional en R
+- Muestreo y Control de Calidad
+- Validación de procesos farmacéuticos
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Banco Central de Chile
+  url: https://www.bcentral.cl/
+role: Gestor de Calidad de Billetes & Monedas
 social:
 - icon: envelope
   icon_pack: fas
@@ -42,11 +43,14 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/
 superuser: true
-title: Alice Bighetti (吳恩達)
+title: Carlos Gómez
 ---
+Me desempeño actualmente como Gestor de Calidad de Billetes y Monedas en el Banco Central de Chile.
 
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
++16 años de experiencia en proyectos de I+D relacionados con metrología química y la aplicación de métodos estadísticos modernos en química analítica. Soy Profesor en los Diplomados de Análisis Orgánico y Buenas Prácticas de Manufactura Farmacéutica impartidos por la Facultad de Ciencias Químicas y Farmacéuticas de la Universidad de Chile.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Ha actuado como consultor en Validación de Procesos Farmacéuticos (Nota N° 4 ISP), así como auditor internacional en la norma ISO 17025.
+
+Fui representante del SIM en el Key Comparison Working Group (KCWG) del CCQM a cargo de evaluar las Capacidades de Medición y Calibración (CMC) de los Institutos Nacionales de Metrología del SIM.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

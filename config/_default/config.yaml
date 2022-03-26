@@ -6,7 +6,7 @@ theme: "starter-hugo-academic"
 
 title: Analytical # Website name
 baseurl: 'https://www.metrologiaquimica.cl/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: '2022' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
