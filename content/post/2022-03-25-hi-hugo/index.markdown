@@ -19,6 +19,10 @@ projects: []
 
 # Método de Monte Carlo
 
+`\(y = x\)`
+
+`$$y = x^{2}$$`
+
 
 ```r
 hist(rnorm(1000), col = 'blue')
