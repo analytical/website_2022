@@ -5,7 +5,7 @@
     <link>https://www.metrologiaquimica.cl/post/</link>
       <atom:link href="https://www.metrologiaquimica.cl/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.metrologiaquimica.cl/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
@@ -13,9 +13,2321 @@
     </image>
     
     <item>
-      <title>Como demuestro que mi curva de calibracion es lineal</title>
+      <title>test math</title>
+      <link>https://www.metrologiaquimica.cl/post/test-math/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/test-math/</guid>
+      <description>
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/test-math/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;test&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;test&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(x = y\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[x = y^2\]&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;hist(rnorm(1000))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/test-math/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://www.metrologiaquimica.cl/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/guide/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://www.metrologiaquimica.cl/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/2020-12-01-r-rmarkdown/</guid>
+      <description>
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/2020-12-01-r-rmarkdown/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing technical content in Academic</title>
+      <link>https://www.metrologiaquimica.cl/post/writing-technical-content/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/writing-technical-content/</guid>
+      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;charts&#34;&gt;Charts&lt;/h3&gt;
+&lt;p&gt;Academic supports the popular &lt;a href=&#34;https://plot.ly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt; chart format.&lt;/p&gt;
+&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
+&lt;p&gt;Demo:&lt;/p&gt;
+
+
+&lt;div id=&#34;chart-418572639&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
+        Plotly.plot(&#39;chart-418572639&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}&lt;em&gt;{n}) - \nabla F(\mathbf{x}&lt;/em&gt;{n-1}) \right |^2}$$&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\\\&lt;/code&gt; math linebreak:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp;amp; \text{if }k=1, \\\\
+1-p_{0}^{*} &amp;amp; \text{if }k=0.\end{cases}$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;$$f(k;p_{0}^{&lt;em&gt;}) = \begin{cases}p_{0}^{&lt;/em&gt;} &amp;amp; \text{if }k=1, \\
+1-p_{0}^{*} &amp;amp; \text{if }k=0.\end{cases}$$&lt;/p&gt;
+&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+  int id
+  size()
+}
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+  int id
+  size()
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
+&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
+- [x] Write diagram example
+- [ ] Do something else
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+&lt;p&gt;Represent your data in tables:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;First Header&lt;/th&gt;
+&lt;th&gt;Second Header&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;callouts&#34;&gt;Callouts&lt;/h3&gt;
+&lt;p&gt;Academic supports a &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% callout note %}}
+A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+{{% /callout %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
+&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; spoiler text=&amp;quot;Click to view the spoiler&amp;quot; &amp;gt;}}
+You found me!
+{{&amp;lt; /spoiler &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
+  &lt;p&gt;You found me!&lt;/p&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
+&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
+{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
+{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>https://www.metrologiaquimica.cl/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/jupyter/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+jupyter lab index.ipynb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: My post&#39;s title
+date: 2019-09-01
+
+# Put any other Academic metadata here...
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Validación de los cálculos de incertidumbre en química analítica con el método Monte Carlo. Parte II</title>
+      <link>https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo-parte2/</link>
+      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo-parte2/</guid>
+      <description>
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo-parte2/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo-parte2/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo-parte2/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+
+&lt;p&gt;En el
+&lt;a href=&#34;https://www.analytical.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/&#34;&gt;post anterior&lt;/a&gt;
+describimos brevemente en qué consiste el método de
+Monte Carlo y cómo utilizarlo para estimar la incertidumbre de medición.
+Finalizamos comparando la estimación de acuerdo a la guía GUM con el método de
+Monte Carlo siguiendo estrictamente las directrices del test de diferencias
+numéricas propuesto por el Suplmento 1 de la GUM.&lt;/p&gt;
+&lt;p&gt;Llevamos a cabo el test de validación “a mano”, es decir, ingresamos
+todas las instrucciones en código &lt;code&gt;R&lt;/code&gt;. Si bien no fue difícil, existen librerías
+especializadas en &lt;code&gt;R&lt;/code&gt; que permiten realizar todos los cálculos de
+incertidumbre y validarlos utilizando funciones ya incorporadas.&lt;/p&gt;
+&lt;p&gt;En &lt;code&gt;R&lt;/code&gt;existen dos librerías especializadas en cálculo de incertidumbre de
+métodos de medición físico-químicos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;metRology&lt;/code&gt; desarrollada en conjunto entre los Institutos Nacionales de
+Metrología del Reino Unido (LGC) y de Estados Unidos (NIST). Es mantenida
+por Steve Ellison, el autor de la guía GUM. Puede encontrar más información
+&lt;a href=&#34;https://www.nist.gov/programs-projects/metrology-software-project&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;propagate&lt;/code&gt; desarrollada por Andrej-Nikolai Spiess&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Me inclinaré por &lt;code&gt;metRology&lt;/code&gt; principalmente porque tiene el soporte de los
+dos centros de metrología más imporantes a nivel mundial y, ya que fue
+desarrollada en sus inicios por Steve Ellison, tiene un pequeño sesgo hacia la
+metrología química.&lt;/p&gt;
+&lt;div id=&#34;ejemplo-de-validación-de-cálculos-con-librería-metrology&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Ejemplo de validación de cálculos con librería &lt;code&gt;metRology&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Desarrollaremos un ejemplo más extenso sobre cálculo de incertidumbre en
+química analítica utilizando esta librería. Iremos paso a paso, cualquier
+duda en la implementación nada más escríbala en los comentarios más
+abajo. Sin embargo, no detallaremos cómo obtener las incertidumbres de
+cada uno de los factores involucrados en la ecuación de medición, sino
+que simplemente será un dato conocido para este ejemplo. En
+un futuro post, desarollaremos un ejemplo completo de principio a fin, por ahora
+nos centraremos en utilizar &lt;code&gt;metRology&lt;/code&gt;como herramienta práctica.&lt;/p&gt;
+&lt;p&gt;En este ejemplo, calcularemos la incertidumbre de un método de determinación
+de cobre en mineral de cobre, con digestión ácida y cuantificación mediante
+espetroscopía de abosrción atómica AAS. Los detalles del método analítico
+están fuera del alcance de este post, pero pueden ser consultados en la
+norma chilena NCh 3392:2016.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Seguiremos estrictamente las directrices de la GUM, por lo tanto, queda
+fuera de esta evaluación cualquier corrección de sesgo y/o recuperación. La
+discusión sobre si se debiera, o no, incorporar el sesgo en la incertidumbre
+es un tema que abordaremos en otro post.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;El primer paso para estimar la incertidumbre de este método es escribir la
+ecuación de medición:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:medicion&#34;&gt;\[\begin{equation}
+  \text{Cu}[\text{%}]=\frac{\text{C}_{\text{calib}}\cdot V \cdot D}{m\cdot 10000}
+  \tag{1}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;donde &lt;span class=&#34;math inline&#34;&gt;\(\text{C}_{\text{calib}}\)&lt;/span&gt; es la concentración de la muestra digerida
+interpolada en la curva de calibración &lt;span class=&#34;math inline&#34;&gt;\([\mu\text{g}\,\text{mL}^{-1}]\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(m\)&lt;/span&gt; es
+la masa de la muestra [g], &lt;span class=&#34;math inline&#34;&gt;\(V\,[\text{mL}]\)&lt;/span&gt; es el volumen del aforo final y &lt;span class=&#34;math inline&#34;&gt;\(D\)&lt;/span&gt;
+es un factor de dilución volumétrico, utilizado cuando es necesario. Para
+simplificar el problema, asumiremos que no hay dilución antes de la lectura
+por AAS, por lo tanto, &lt;span class=&#34;math inline&#34;&gt;\(D = 1\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(u_{D} = 0\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Identificación de las fuentes de incertidumbre&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A continuación se enumeran las fuentes de incertidumbre asociadas a cada uno de
+los factores de la ecuación &lt;a href=&#34;#eq:medicion&#34;&gt;(1)&lt;/a&gt; y se describe brevemente los
+métodos estadísticos y de juicio experto utilizados para obtener las
+incertidumbres
+estándar correpospondientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\text{C}_{\text{calib}}\)&lt;/span&gt;: La incertidumbre estándar de la concentración de
+una muestra problema &lt;span class=&#34;math inline&#34;&gt;\(u_{\text{C}_\text{calib}}\)&lt;/span&gt; obtenida de una curva de
+calibración
+lineal &lt;span class=&#34;math inline&#34;&gt;\(y = a + bx\)&lt;/span&gt; es calculada a partir de la siguiente expresión:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{equation}
+u_{\text{C}_{\text{calib}}}=\frac{s_{y/x}}{b}\sqrt{\frac{1}{m}+\frac{1}{n}+
+\frac{(C_{\text{calib}}-\overline{C})^2}{\sum(C_{i}-\overline{C})^2}}
+\label{eq:ucurva}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;donde &lt;span class=&#34;math inline&#34;&gt;\(s_{y/x}\)&lt;/span&gt; es la desviación estándar de la regresión, &lt;span class=&#34;math inline&#34;&gt;\(m\)&lt;/span&gt; es el número de
+replicados independientes de la muestra problema efectivamente analizados, &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt;
+es el número de calibrantes, &lt;span class=&#34;math inline&#34;&gt;\(C_{\text{calib}}\)&lt;/span&gt; es la concentración de la
+muestra problema obtenida por interpolación en la curva de calibración,
+&lt;span class=&#34;math inline&#34;&gt;\(\overline{C}\)&lt;/span&gt;
+es el promedio de la concentraciones de los calibrantes. Estos parámetros pueden
+ser obtenidos directamente del análisis estadístico de la curva de calibración
+lineal. Cabe destacar que cuando se utiliza el método de mínimos cuadrados
+ordinarios para estimar la pendiente e intercepto de la curva, esta metodología
+no incorpora la incertirtumbre de la concentración de los calibrantes.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Puede profundizar sobre la incertidumbre de calibración en el siguiente
+&lt;a href=&#34;https://www.analytical.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/&#34;&gt;post&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(V\)&lt;/span&gt;: La incertidumbre del volumen de aforo &lt;span class=&#34;math inline&#34;&gt;\(u_{\text{V}}\)&lt;/span&gt; es estimada a partir
+de la combinación de tres fuentes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(u_{\text{tol}}\)&lt;/span&gt; La incertidumbre informada por el fabricante en el
+certificado original del lote de producción o aquella impresa en el material
+de vidrio. Esta incertidumbre es de Tipo B.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(u_{\text{rep}}\)&lt;/span&gt; Incertidumbre debido a la repetibilidad de llenado del
+aforo del material de vidrio. Esta incertidumbre (Tipo A) es evaluada
+mediante métodos estadísticos a través de la replicación (&lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt;) del llenado
+del material con agua destilada y el registro gravimétrico de la cantidad
+de agua. La incertidumbre estándar se expresa como la desviación estándar
+de los &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt;
+replicados.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(u_{\text{temp}}\)&lt;/span&gt; La incertidumbre debido a la diferencia de temperatura
+registrada durante la calibración del material de vidrio y aquella que se
+registra durante los análisis de rutina. Esta incertidumbre expandida es
+expresada en la
+ecuación &lt;a href=&#34;#eq:uvol&#34;&gt;(2)&lt;/a&gt;:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:uvol&#34;&gt;\[\begin{equation}
+  U_{\text{temp}}= V\cdot \gamma_{\text{H}_{2}\text{O}} \cdot \Delta T
+  \tag{2}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;donde &lt;span class=&#34;math inline&#34;&gt;\(V\)&lt;/span&gt; es el volumen certificado del material de vidrio,
+&lt;span class=&#34;math inline&#34;&gt;\(\gamma_{\text{H}_{2}\text{O}} = 2.1\cdot 10^{-4}\,\text{°C}^{-1}\)&lt;/span&gt; es el
+coeficiente de expansión del agua y &lt;span class=&#34;math inline&#34;&gt;\(\Delta T\)&lt;/span&gt; es la variabilidad de la
+temperatura de trabajo del laboratorio en relación a la tempreratura de
+calibración del material. Finalmente, se obtiene asume una distribución
+rectangular de la variable  obteniéndose una incertidumbre
+estándar &lt;span class=&#34;math inline&#34;&gt;\(u_{\text{temp}}=U_{\text{temp}}/\sqrt{3}\)&lt;/span&gt; mL.&lt;/p&gt;
+&lt;p&gt;Esta expresión debe utilizarse cuando exista un certificado de calibración que
+informe la temperatura de referencia registrada durante el proceso de
+certificación el cual puede provenir del mismo fabricante o de alguna institución
+metrológica nacional que certifique este tipo material. Generalmente la
+temperatura de calibración se espcifica a 20°C.&lt;/p&gt;
+&lt;p&gt;La incertidumbre combinada estándar del volumen del aforo se obtiene a través
+de la siguiente expresión:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{equation}
+u_{\text{V}} = \sqrt{u_{\text{tol}}^2+u_{\text{rep}}^2+u_{\text{temp}}^2} 
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(m\)&lt;/span&gt; : La incertidudmbre de la masa de la muestra es obtenida directamente del
+certificado de la balanza emitido por el nodo de metrología física nacional u
+otro proveedor de calibración.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Cuantificación de los componentes de incertidumbre&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Como mencionamos anteriormente, no llevaremos a cabo la estimación de
+incertidumbre de cada uno de lo componentes, sino que asumiremos que estos
+datos ya están disponibles. Dedicaremos otro post a desarrollar un ejemplo
+completo de principio a fin.&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Cálculo de la incertidumbre combinada total&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Aplicando las directrices de la GUM y en base a la ecuación de medición
+&lt;a href=&#34;#eq:medicion&#34;&gt;(1)&lt;/a&gt;, la incertidumbre estándar de la concentración de Cu por
+este método analítico es obtenida a partir de:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:ufinal&#34;&gt;\[\begin{equation}
+u_{\text{Cu}} = \text{Cu}\sqrt{\left(\frac{u_{\text{C}_\text{calib}}}{\text{C}_{\text{calib}}}\right)^2+
+\left(\frac{u_{\text{m}}}{m}\right)^2+
+\left(\frac{u_{\text{V}}}{V}\right)^2}
+\tag{3}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;La tabla &lt;a href=&#34;#tab:udata&#34;&gt;1&lt;/a&gt; muestra las incertidumbres estándares de cada
+uno de los componentes de la ecuación &lt;a href=&#34;#eq:ufinal&#34;&gt;(3)&lt;/a&gt;:&lt;/p&gt;
+&lt;table class=&#34;table table-striped&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;caption&gt;
+&lt;span id=&#34;tab:udata&#34;&gt;Table 1: &lt;/span&gt;Valores e incertidumbres estándar de cada componente
+&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Componente
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Valor
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+u
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Unidades
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Concentracion calibracion
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+13.82
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.24
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+ug/mL
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Volumen aforo
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+250.00
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.14
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+mL
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Masa muestra
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.99160
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.00005
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+g
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Ok, vamos entonces a utilizar la librería &lt;code&gt;metRology&lt;/code&gt; para evaluar la
+incertidumbre del % de Cu.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Debe, en primer lugar, instalar la librería mediante el
+comando &lt;code&gt;install.packages(&amp;lsquo;metRology&amp;rsquo;)&lt;/code&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Una vez instalada debe ingresar el siguiente código &lt;code&gt;R&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(metRology)  # Carga la librería metRology
+
+# Ingresar los valores de cada variable input (Tabla 1)
+
+Cu.calib &amp;lt;- 13.82 # Concentración interpolada en la curva de calibración [ug/mL]
+V &amp;lt;- 250          # Volumen de aforo [mL]
+m &amp;lt;- 0.9916       # Masa de la muestra [g]
+D &amp;lt;- 1            # Factor de dilución (D = 1 implica no hay dilución)
+
+# Ingresar las incertidumbres estándar de cada variable input (Tabla 1)
+# Se mantienen, obviamente, las mismas unidades
+
+u.Cu.calib &amp;lt;- 0.24
+u.V &amp;lt;- 0.14
+u.m &amp;lt;- 0.00005
+u.D &amp;lt;- 0
+
+# Ingresamos la ecuación de medición y la guardamos con el nombre C.Cu
+# mediante el comando &amp;#39;expression&amp;#39;
+
+C.Cu &amp;lt;- expression(Cu.calib*V*D/(m*10000))
+
+# Guardemos en una lista los valores de cada variable input, la llamaremos
+# x.Cu
+
+x.Cu &amp;lt;- list(Cu.calib = Cu.calib, V = V , D = D, m = m)
+
+# Guardemos en un vector las incertidumbres estándares de cada variable input
+# ¡¡en el mismo orden que fueron ingresadas en x.Cu!!
+# Llamaremos a este vector u.x.Cu
+
+u.x.Cu &amp;lt;- c(u.Cu.calib, u.V, u.D, u.m)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;¡Estamos listos! Ahora &lt;code&gt;metRology&lt;/code&gt;hará todo el trabajo con el comando &lt;code&gt;uncert&lt;/code&gt;, Ud. debe elegir cuál método de estimación desea utilizar, las opciones son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GUM&lt;/li&gt;
+&lt;li&gt;Monte Carlo&lt;/li&gt;
+&lt;li&gt;Kragten: Método numérico basado en una aproximación de las derivadas
+parciales propuestas por GUM. Es una excelente alternativa y muy sencilla de
+implementar en Excel también.&lt;/li&gt;
+&lt;li&gt;NUM y k2 son otras aproximaciones numéricas de derivadas parciales.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Cálculo de incertidumbre de acuerdo a GUM:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ingresamos ¡en este orden! los siguientes parámetros del comando uncert
+# Ecuación de medición C.Cu
+# Lista de valores inputs x.Cu
+# Vector de incertidumbres estándar u.x.Cu
+# ¿Con cuál método quiere calcular la incertidumbre? En este caso GUM
+
+u.Cu.GUM &amp;lt;- uncert(C.Cu, x.Cu, u.x.Cu, method = &amp;#39;GUM&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La información que entrega &lt;code&gt;uncert&lt;/code&gt;es muy completa, sin embargo, para nuestro
+propósito sólo debemos fijarnos en el resultado que aparece al final del
+análisis, es decir: &lt;span class=&#34;math inline&#34;&gt;\(y = 0.3484268\)&lt;/span&gt; % Cu y &lt;span class=&#34;math inline&#34;&gt;\(u(y) = 0.006054\)&lt;/span&gt; % Cu.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+Uncertainty evaluation
+
+Call:
+  uncert.expression(obj = C.Cu, x = x.Cu, u = u.x.Cu, method = &amp;quot;GUM&amp;quot;)
+
+Expression: Cu.calib * V * D/(m * 10000)
+
+Evaluation method:  GUM 
+
+Uncertainty budget:
+         x        u       c            u.c          
+Cu.calib  13.8200 0.24000  0.025211779  6.050827e-03
+V        250.0000 0.14000  0.001393707  1.951190e-04
+D          1.0000 0.00000  0.348426785  0.000000e+00
+m          0.9916 0.00005 -0.351378363 -1.756892e-05
+
+   y:  0.3484268
+u(y):  0.006053998 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Además de los cálculos de incertidumbre, la opción &lt;code&gt;method = &#39;GUM&#39;&lt;/code&gt; entrega
+4 gráficos muy interesantes, siendo el más importante el de
+&lt;em&gt;Contribuciones combinadas&lt;/em&gt;, el cual se muestra en la figura &lt;a href=&#34;#fig:plotGUM&#34;&gt;1&lt;/a&gt;.
+En este gráfico queda en evidencia que el factor que más aporta a la
+incertidumbre total (evaluada por GUM) es la curva de calibración.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:plotGUM&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo-parte2/index_files/figure-html/plotGUM-1.png&#34; alt=&#34;Gráfico de contribución a la incertidumbre total&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Gráfico de contribución a la incertidumbre total
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Cálculo de incertidumbre de acuerdo a Monte Carlo:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Esencialmente es el mismo comando que utilizamos para GUM, sólo que
+seleccionaremos &lt;code&gt;method = &#39;MC&#39;&lt;/code&gt;. Sin embargo, este método tiene varias
+opciones adicionales muy interesantes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Con la opción &lt;code&gt;distrib&lt;/code&gt; Ud. puede asignar a cada variable su respectiva
+distribución de probabilidad: Normal, uniforme, triangular o Student. Por
+defecto, asume que todas son normales.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Con la opción &lt;code&gt;B&lt;/code&gt; indica el número de simulaciones. Por defecto &lt;code&gt;B = 200&lt;/code&gt;. Le sugiero cambiar a &lt;code&gt;B = 10000&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Guardaremos los cálculos en el objeto u.Cu.MC
+
+set.seed(123) # Sólo para que Ud. obtenga los mismos resultados
+
+u.Cu.MC &amp;lt;- uncert(C.Cu, x.Cu, u.x.Cu, method = &amp;#39;MC&amp;#39;, B = 10000)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;El método de Monte Carlo entrega el siguiente análisis:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+Uncertainty evaluation
+
+Call:
+  uncert.expression(obj = C.Cu, x = x.Cu, u = u.x.Cu, method = &amp;quot;MC&amp;quot;,     B = 10000)
+
+Expression: Cu.calib * V * D/(m * 10000)
+
+Evaluation method:  MC 
+
+Budget:
+         x        u       c            u.c           distrib
+Cu.calib  13.8200 0.24000  0.025211842  6.050842e-03 norm   
+V        250.0000 0.14000  0.001393355  1.950696e-04 norm   
+D          1.0000 0.00000           NA            NA norm   
+m          0.9916 0.00005 -0.351680471 -1.758402e-05 norm   
+         distrib.pars         
+Cu.calib mean=13.82, sd=0.24  
+V        mean=250, sd=0.14    
+D        mean=1, sd=0         
+m        mean=0.9916, sd=5e-05
+
+   y:  0.3484268
+u(y):  0.006046603 
+
+Monte Carlo evaluation using 10000 replicates:
+
+   y:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.3252  0.3444  0.3484  0.3484  0.3525  0.3720 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;El MMC obtiene
+&lt;span class=&#34;math inline&#34;&gt;\(y = 0.3484268\)&lt;/span&gt; % Cu y &lt;span class=&#34;math inline&#34;&gt;\(u(y) = 0.0060466\)&lt;/span&gt; % Cu.&lt;/p&gt;
+&lt;p&gt;La tabla &lt;a href=&#34;#tab:comparacion&#34;&gt;2&lt;/a&gt; muestra la comparación de ambas
+aproximaciones en la estimación de la incertidumbre estándar:&lt;/p&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;span id=&#34;tab:comparacion&#34;&gt;Table 2: &lt;/span&gt;Cuadro comparativo GUM v/s Monte Carlo % Cu
+&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Método
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Valor calculado
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+u
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+GUM
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.3484268
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.0060540
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Monte Carlo
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.3484268
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.0060466
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Note la excelente concordancia entre ambas metodologías &lt;strong&gt;para esta
+ecuación de medición asumiendo una distribución normal para
+todas las variables inputs&lt;/strong&gt;. En este caso, &lt;em&gt;muy particular&lt;/em&gt;, casi sería
+innecesario validar el método GUM, pero lo haremos de todas maneras
+para ejemplificar la operación.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;validación-de-los-cálculos-gum-con-el-método-de-monte-carlo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Validación de los cálculos GUM con el método de Monte Carlo&lt;/h2&gt;
+&lt;p&gt;En el
+&lt;a href=&#34;https://www.analytical.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/&#34;&gt;post anterior&lt;/a&gt;
+hicimos el test de validación numérica “a mano”, en
+esta oportunidad utilizaremos el comando &lt;code&gt;GUM.validate&lt;/code&gt;. Lamentablemente
+este comando tiene una forma distinta de ingresar los parámetros, nada
+del otro mundo, pero es distinta a &lt;code&gt;uncert&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Si bien GUM.validate tiene muchas opciones, utilizaremos aquellas
+# que están por defecto en la librería
+
+# Guarde en un vector el nombre de las variables, cada una entre &amp;#39; &amp;#39;
+variables &amp;lt;- c(&amp;#39;Cu.calib&amp;#39;, &amp;#39;V&amp;#39;, &amp;#39;D&amp;#39;, &amp;#39;m&amp;#39;)
+
+# Guarde en un vector x.i los valores de la variables input en el 
+# mismo orden que ingresó &amp;#39;variables&amp;#39; arriba
+x.i &amp;lt;- c(13.82, 250, 1, 0.9916)
+
+# Guarde en un vector u.i las incertidumbres estándar de las variables
+# input, en el mismo orden que ingresó &amp;#39;variables&amp;#39; arriba
+u.i &amp;lt;- c(0.24, 0.14, 0, 0.00005)
+
+# Guarde los grados de libertad de cada variable input como nu.i. 
+# En este ejemplo  asumiremos que todas tienen infinitos grados de 
+# libertad (nu = 9999)
+
+nu.i &amp;lt;- c(9999, 9999, 9999, 9999)
+
+# Seleccione que tipo de método utilizó para evaluar cada una de las
+# incertidumbres: Tipo A o tipo B. En este caso sólo la incertidumbre
+# de calibración u.Cu.calib es de tipo A.
+
+type &amp;lt;- c(&amp;#39;A&amp;#39;, &amp;#39;B&amp;#39;, &amp;#39;B&amp;#39;, &amp;#39;B&amp;#39;)
+
+# Seleccione que distribuciones de probabilidad asignó a las variables
+# input. En este ejemplo, asumiremos que todas son normales
+
+distribution &amp;lt;- rep(&amp;#39;Normal&amp;#39;, 4) # Repetir Normal 4 veces (soy muy flojo)
+
+# Guarde la ecuación de medición entre &amp;#39;&amp;#39;
+ec_de_medicion &amp;lt;- &amp;#39;Cu.calib*V*D/(m*10000)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Listo, ahora validemos los cálculos GUM con el comando
+&lt;code&gt;GUM.validate&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(126) # Tu ya sabes
+GUM.validate(var.name = variables, 
+             x.i = x.i,
+             u.i = u.i,
+             nu.i = nu.i,
+             type = type,
+             distribution = distribution,
+             measurement.fnc = ec_de_medicion)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1] 0.958&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“Bueno ¿Y?” se preguntará Ud.&lt;/p&gt;
+&lt;p&gt;Bien, para validar el método GUM frente a Monte Carlo, fíjese en el valor
+que entrega &lt;code&gt;GUM.validate = 0.958&lt;/code&gt; y compárelo con 0.95. Si el valor de
+&lt;code&gt;GUM.validate&lt;/code&gt; &lt;span class=&#34;math inline&#34;&gt;\(&amp;gt; 0.95\)&lt;/span&gt; entonces el método GUM queda validado.&lt;/p&gt;
+&lt;p&gt;En el fondo, &lt;code&gt;GUM.validate&lt;/code&gt; evalúa si el intervalo de incertidumbre calculado
+por GUM alcanza o no la cobertura esperada del 95% (teórica).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;resumiendo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Resumiendo&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;El método de Monte Carlo funciona en casos donde las suposiciones del
+método GUM no se cumplen, especialmente en ecuaciones de medición no
+lineales.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mientras más divergencia de la linealidad tenga el modelo de medición,
+más discrepancias habrá entre ambos métodos.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Es posible que cuando incorpore distribuciones rectangulares (uniformes),
+el histograma de los valores de Monte Carlo esté dominado por este
+tipo de distribuciones. Verá un achatamiento del histograma.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ya hablamos que la pureza química (al menos para compuestos muy puros
+&lt;span class=&#34;math inline&#34;&gt;\(&amp;gt; 95\%\)&lt;/span&gt;) no es correcto modelarla mediante una distribución Normal
+(¿&lt;span class=&#34;math inline&#34;&gt;\(99.7 \pm 0.5\)&lt;/span&gt; %?), sino
+con una Beta. Lamentablmente, la librería &lt;code&gt;metRology&lt;/code&gt;no posee esta distribución
+en sus opciones y tendrá que hacer la simulación “a mano”.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En general para distribuciones de Monte Carlos muy asimétricas (como la
+pureza química modelada con Beta), la diferencia entre MC y GUM se verá
+reflejada en la incertidumbre expandida y no en la estándar.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Quedan muchas cosas por analizar del método de Monte Carlo, sin embargo, el
+espíritu de este post es divulgar a la comunidad químico-analítica
+esta poderosa herramienta más que entrar en los detalles teóricos.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Usamos el lenguaje &lt;code&gt;R&lt;/code&gt;porque es actualmente el &lt;em&gt;idioma oficial&lt;/em&gt; de la
+estadística. Sin embargo, Ud. puede implementar estos cálculos en cualquier
+lenguaje e incluso en Excel. Además, existen muchos otros softwares que,
+aunque no tan flexibles y potentes como &lt;code&gt;R&lt;/code&gt;, harán el trabajo.
+Revise la siguiente lista en &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_uncertainty_propagation_software&#34;&gt;Wikipedia&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Espero que este post haya sido de su agrado, todos los comentarios
+son bienvenidos. Hasta la próxima.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bibliografía&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Bibliografía&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Evaluation of measurement data – Guide to the expression of uncertainty in
+measurement JCGM 100:2008&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Evaluation of measurement data – Supplement 1 to the “Guide to the expression
+of uncertainty in measurement” – Propagation of distributions using a Monte Carlo
+method JCGM 101:2008&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Stephen L R Ellison &lt;em&gt;metRology: Support for Metrological Applications&lt;/em&gt;
+R package version 0.9-23-2, 2016.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Validación de los cálculos de incertidumbre en química analítica con el método Monte Carlo. Parte I</title>
+      <link>https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/</guid>
+      <description>
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;De acuerdo al numeral 8.1 del Suplemento 1 de la guía GUM,
+el método de Monte Carlo es un método general para estimar la incertidumbre de
+medición y puede, bajo ciertas directrices, validar los cálculos realizados
+con el método GUM. En este post asumiremos que Ud.,
+esimado lector, está familiarizado con el método GUM y ya lo tiene implementado
+, por ejemplo, en una hoja Excel y le gustaría validar
+sus cálculos mediante un
+método totalmente independiente y más general. De esta forma podrá cumplir
+cabalmente con el siguiente numeral de la norma 17025:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;5.4.7.1 Los cálculos y la transferencia de los datos deben estar sujetos a
+verificaciones adecuadas llevadas a cabo de una manera sistemática.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;¿Cómo sabe Ud. que su implementación en Excel está correcta?&lt;/p&gt;
+&lt;div id=&#34;qué-es-el-método-de-monte-carlo&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;¿Qué es el método de Monte Carlo?&lt;/h1&gt;
+&lt;p&gt;(Aquí podría hacer copy-paste de Wikipedia…no olvidar borrar esta nota interna)&lt;/p&gt;
+&lt;p&gt;Muy sucintamente, el método de Monte Carlo es un método numérico que permite
+evaluar expresiones matemáticas complejas (muy complejas, créame) mediante la
+simulación de números aleatorios.
+Este post no pretende profundizar en la teoría de este método (ZzzZzz…) , sino
+más bien dar ejemplos concretos aplicados en química analítica, por lo tanto,
+es posible que un avezado estadístico computacional le dé un infarto al leer la
+soltura con la cual me expreso y lo ineficiente del código &lt;code&gt;R&lt;/code&gt;. El objetivo
+es simplemente la divulgación a la comunidad químico-analítica para
+abordar algunos puntos normativos de la 17025 y guía GUM.&lt;/p&gt;
+&lt;p&gt;Veamos un ejemplo sencillo. Supongamos que necesitamos calcular la
+incertidumbre de la
+suma de 2 variables aleatorias
+normales &lt;strong&gt;independientes&lt;/strong&gt;, y que poseen&lt;br /&gt;
+la misma media (&lt;span class=&#34;math inline&#34;&gt;\(\mu\)&lt;/span&gt;) y varianza (&lt;span class=&#34;math inline&#34;&gt;\(\sigma^2\)&lt;/span&gt;), es decir,
+si &lt;span class=&#34;math inline&#34;&gt;\(Z = X + Y\)&lt;/span&gt; ¿Cuál es la incertiumbre de &lt;span class=&#34;math inline&#34;&gt;\(Z\)&lt;/span&gt;? (&lt;span class=&#34;math inline&#34;&gt;\(u_{Z}\)&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;Si Ud. recuerda de sus cursos de probabilidades, este problema tiene una solución
+directa y sencilla:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{eqnarray}
+  V(Z) &amp;amp;=&amp;amp; V(X) + V(Y) \\
+  V(Z) &amp;amp;=&amp;amp; \sigma^2 + \sigma^2 \\
+  V(Z) &amp;amp;=&amp;amp; 2\sigma^2
+\end{eqnarray}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;donde &lt;span class=&#34;math inline&#34;&gt;\(V()\)&lt;/span&gt; denota varianza. Por lo tanto, la incertidumbre de Z es
+&lt;span class=&#34;math inline&#34;&gt;\(u_{Z} = \sqrt{V(Z)} = \sqrt{2}\sigma\)&lt;/span&gt;. Si Ud, conoce &lt;span class=&#34;math inline&#34;&gt;\(\sigma\)&lt;/span&gt;, es decir,
+la incertidumbre estándar de &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;, el problema está resuelto.
+En realidad, este ejemplo es bastente general y las distribuciones ni siquiera
+tienen que ser las mismas, bajo ciertas condiciones, esto se cumplirá.&lt;/p&gt;
+&lt;p&gt;Pero supongamos que, repentinamente, Ud. olvidó todo lo aprendido en esas
+estimulantes clases de probabilidades con 33°C y
+sin aire acondicionado. No se
+preocupe, obtendremos la incertidumbre de Z sin recurrir a ninguna propiedad
+teórica de las varianzas. Usareemos el método de Monte Carlo,
+para lo cual debemos
+hacer lo siguiente:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Asigne a cada variable, en este caso &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;, una distribución de
+probabilidad de acuerdo a la información que disponga hasta ese momento.
+En nuestro ejemplo tanto &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; como &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt; son normales con
+la misma media (&lt;span class=&#34;math inline&#34;&gt;\(\mu\)&lt;/span&gt;) y desviación estándar (&lt;span class=&#34;math inline&#34;&gt;\(\sigma\)&lt;/span&gt;). Sin pérdida de
+generalidad, diremos que ambas variables &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt; son normales con media
+&lt;span class=&#34;math inline&#34;&gt;\(\mu = 100\)&lt;/span&gt; y desviación estándar &lt;span class=&#34;math inline&#34;&gt;\(\sigma = 5\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;De cada variable genere un valor aleatorio. Es decir, en nuestro ejemplo
+debemos generar un número aleatorio para &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; y otro para &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt; a partir de sus
+respectivas distribuciones de probabilidad asignadas, que en este caso es la
+misma. Haremos esto en lenguaje &lt;code&gt;R&lt;/code&gt;:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Generamos n = 1 número aletorio para X a partir de una
+# distribución Normal con media 100 y desviación estándar 5
+X &amp;lt;- rnorm(1, 100, 5) 
+
+# Generamos n = 1 número aletorio para Y a partir de una
+# distribución Normal con media 100 y desviación estándar 5
+Y &amp;lt;- rnorm(1, 100, 5) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;En esta primera simulación obtuvimos &lt;span class=&#34;math inline&#34;&gt;\(X = 97.1976218\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(Y = 98.8491126\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Calcule la variable de interés con los datos simulados. En el ejemplo,
+&lt;span class=&#34;math inline&#34;&gt;\(Z = X + Y = 97.1976218 + 98.8491126= 196.0467343\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Repita los pasos 2 y 3 &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; veces y obtenga la distribución empírica de &lt;span class=&#34;math inline&#34;&gt;\(Z\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A partir de los &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; datos simulados de &lt;span class=&#34;math inline&#34;&gt;\(Z\)&lt;/span&gt;, estime &lt;span class=&#34;math inline&#34;&gt;\(u_{Z} = s_{Z}\)&lt;/span&gt;, es decir,
+la desviación estándar muestral de los &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; datos.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Hay varias formas de implementar todos estos pasos
+en &lt;code&gt;R&lt;/code&gt;, la más intuitiva (creo yo) es la siguiente:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;n &amp;lt;- 1000 # Obtendremos n = 1000 datos aleatorios para X e Y
+mu &amp;lt;- 100 # Media mu = 100
+s &amp;lt;- 5    # Desviación estandar s = 5
+
+X &amp;lt;- rnorm(n, mu, s) # 1000 datos aleatorios de una normal con parámetros mu y s
+Y &amp;lt;- rnorm(n, mu, s) # 1000 datos aleatorios de una normal con parámetros mu y s
+
+Z &amp;lt;- X + Y # Para cada uno de los 1000 datos de X e Y, calculamos Z
+
+uZ &amp;lt;- sd(Z) # La incertidumbre estándar de Z es la desviación estándar de las
+            # n = 1000 simulaciones&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;En nuestro ejemplo, la incertidumbre estándar por Monte Carlo es de
+&lt;span class=&#34;math inline&#34;&gt;\(u_{Z}^{MC} = 7.4\)&lt;/span&gt;. ¿Qué nos decía la teoría? Que
+&lt;span class=&#34;math inline&#34;&gt;\(u_{Z} = \sqrt{2}\sigma = \sqrt{2}\cdot 5 = 7.1\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ojalá todo fuera tan fácil. El ejemplo era muy sencillo y la
+solución es conocida en forma teórica.
+La vida del químico analítico es extremadamente compleja (en todo $entido),
+y no siempre existe una solución tan simple. Para eso está el método de
+Monte Carlo, el cual simula un proceso complejo cuyas variables de entrada
+pueden tener cualquier distribución de probabilidad tal como lo muestra
+la siguiente figura:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mc2.png&#34; width=&#34;500&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;La generalidad del método MC no asume normalidad de la variable de
+interés &lt;span class=&#34;math inline&#34;&gt;\(g(y)\)&lt;/span&gt;, sino más bien la estima como una distribución empírica y a
+partir de ésta calcula la incertidumbre estándar y expandida.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;incertidumbre-de-un-factor-de-dilución&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Incertidumbre de un factor de dilución&lt;/h1&gt;
+&lt;p&gt;Para aterrizar esta definición veamos un
+ejemplo muy simple en química analítica
+y cómo podemos implementarlo en un lenguaje de programación
+especialmente dedicado a esta tareas: &lt;code&gt;R&lt;/code&gt;. A su vez discutiremos las principales
+diferencias entre el método GUM y el método de Monte Carlo&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Se prepara la dilución de una muestra antes de su lectura por AAS, mediante
+la toma de una alícuota de 20 mL con una pipeta volumétrica cuyo volumen
+es &lt;span class=&#34;math inline&#34;&gt;\(20,0 \pm 0,1\)&lt;/span&gt; mL y su dilución en un matraz de 100 mL,
+con un volumen de &lt;span class=&#34;math inline&#34;&gt;\(100 \pm 0,6\)&lt;/span&gt; mL. Calcular la incertidumbre
+del factor de dilución &lt;span class=&#34;math inline&#34;&gt;\(f = V_{final}/V_{inicial}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;método-gum&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Método GUM&lt;/h2&gt;
+&lt;p&gt;Este es un ejercicio bastante simple para el método GUM, pues el factor de
+dilución es una operación de división, por lo que aplicando las reglas de
+propagación de la incertidumbre de una división, obtenemos lo
+siguiente:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:f&#34;&gt;\[\begin{equation}
+  u_{f} = f\sqrt{\left(\frac{u_{V_{final}}}{V_{final}}\right)^2 + 
+  \left(\frac{u_{V_{inicial}}}{V_{incial}}\right)^2}
+  \tag{1}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Asumiremos por simplicidad que las incertidumbres asociadas al material
+volumétrico son las indicadas por el fabricante en el mismo material, es
+decir, de acuerdo a la figura &lt;a href=&#34;#fig:matraz&#34;&gt;1&lt;/a&gt; y, por ahora, serán
+las únicas fuentes de incertidumbre del material volumétrico (olvidaremos
+la T° y la repetibilidad).&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:matraz&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;pipeta.jpg&#34; alt=&#34;Incertidumbre del fabricante&#34; width=&#34;84&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Incertidumbre del fabricante
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Ahora bien, las incertidumbres del material volumétrico corresponden a
+incertidumbres expandidas &lt;span class=&#34;math inline&#34;&gt;\(U\)&lt;/span&gt;, por lo tanto, debemos convertirlas a incertidumbres
+estándares antes de aplicar la ecuación &lt;a href=&#34;#eq:f&#34;&gt;(1)&lt;/a&gt;. También por simplicidad,
+modelaremos los volúmenes mediante una distribución rectangular, por lo
+tanto, al estandarizar &lt;span class=&#34;math inline&#34;&gt;\(u = U/k\)&lt;/span&gt;, con &lt;span class=&#34;math inline&#34;&gt;\(k = \sqrt{3}\)&lt;/span&gt; obtenemos lo siguiente:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{eqnarray}
+  u_{V_{final}} &amp;amp;=&amp;amp; \frac{0,6}{\sqrt{3}} = 0.35\, \text{mL}\\
+  u_{V_{incial}} &amp;amp;=&amp;amp; \frac{0,1}{\sqrt{3}} = 0.06\, \text{mL}\\
+  u_{f} &amp;amp;=&amp;amp; \frac{100}{20}\sqrt{\left(\frac{0.35}{100}\right)^2 + 
+  \left(\frac{0.06}{20}\right)^2} \\
+    u_{f} &amp;amp;=&amp;amp;  0.02255
+\end{eqnarray}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;En este ejemplo, podemos asumir que los grados de libertad de ambas
+incertidumbres tienden a infinito, por lo tanto, si queremos obtener la
+incertidumbre expandida del factor de dilución con un 95% de confianza,
+se asume un factor de cobertura &lt;span class=&#34;math inline&#34;&gt;\(k = 2\)&lt;/span&gt;, de esta forma
+obtenemos &lt;span class=&#34;math inline&#34;&gt;\(U_{f} = ku_{f} = 0.04509\)&lt;/span&gt; mL.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;método-de-monte-carlo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Método de Monte Carlo&lt;/h2&gt;
+&lt;p&gt;Implementaremos en &lt;code&gt;R&lt;/code&gt;, los pasos descritos del método de Monte Carlo:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;k &amp;lt;- sqrt(3) # Factor de estandarización para una distribución rectangular
+vi &amp;lt;- 20     # Volumen inicial [mL]
+Uvi &amp;lt;- 0.1   # Incertidumbre expandida del volumen inicial [mL]
+uvi &amp;lt;- Uvi/k # Incertidumbre estándar del volumen inicial [mL]
+vf &amp;lt;- 100    # Volumen incial [mL]
+Uvf &amp;lt;- 0.6   # Incertidumbre expandida del volumen final [mL]
+uvf &amp;lt;- Uvf/k # Incertidumbre estándar del volumen final [mL]
+
+# Aquí haremos la simulación de Monte Carlo
+set.seed(123) # Para que Ud. obtenga los mismos resultados en su simulación
+
+# Generaremos valores aleatorios de volumen inicial y volumen final
+# desde una distribución rectangular con el comando runif(n, minimo, maximo)
+# minimo = volumen - U
+# maximos = volumen + U
+# Los guardaremos en los vectores vi.sim y vf.sim
+
+n &amp;lt;- 1000
+vi.sim &amp;lt;- runif(n, vi - Uvi, vi + Uvi)
+vf.sim &amp;lt;- runif(n, vf - Uvf, vf + Uvf)
+
+# Ahora calcularemos el factor de dilución para cada uno de los pares de 
+# valores de volumen inicial y final que simulamos y lo guardaremos en el
+# el vector f.sim
+
+f.sim &amp;lt;- vf.sim/vi.sim # Es la misma fórmula&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“Bueno ¿Y?” se preguntará Ud.&lt;/p&gt;
+&lt;p&gt;Veamos que hemos generado con la simulación:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(n = 1000\)&lt;/span&gt; valores aleatorios del volumen inicial a partir de una
+distribución rectangular con media &lt;code&gt;vi&lt;/code&gt; = 20 mL e incertidumbre expandida
+&lt;code&gt;Uvi&lt;/code&gt; = 0.1 mL. El promedio de los 1000 volumenes iniciales simulados es
+19.999 mL y una desviación estándar de
+&lt;code&gt;uvi&lt;/code&gt; = &lt;span class=&#34;math inline&#34;&gt;\(U_{vf}/\sqrt{3} = 0.058\)&lt;/span&gt; mL. La figura &lt;a href=&#34;#fig:visim&#34;&gt;2&lt;/a&gt;
+muestra el histograma de los valores simulados. Note que la simulación
+concuerda perfectamente con los valores de incertidumbre informados por el
+fabricante (&lt;span class=&#34;math inline&#34;&gt;\(20 \pm 0.1\)&lt;/span&gt; mL).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:visim&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/index_files/figure-html/visim-1.png&#34; alt=&#34;Histograma de los valores simulados de volumen inicial [mL]&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Histograma de los valores simulados de volumen inicial [mL]
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(n = 1000\)&lt;/span&gt; valores aleatorios del volumen final a partir de una
+distribución rectangular con media &lt;code&gt;vf&lt;/code&gt; = 100 mL e incertidumbre expandida
+&lt;code&gt;Uvf&lt;/code&gt; = 0.6 mL.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Para cada uno de los pares datos simulados de volumen inicial y final,
+se calculó el factor de dilución, por lo tanto, se obtuvieron en total
+&lt;span class=&#34;math inline&#34;&gt;\(n = 1000\)&lt;/span&gt; factores los cuales se “guardaron” en el
+vector &lt;code&gt;f.sim&lt;/code&gt;, tal como se muestra en la tabla &lt;a href=&#34;#tab:fsim&#34;&gt;1&lt;/a&gt;:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:fsim&#34;&gt;Table 1: &lt;/span&gt;Variables simuladas. Se muestran los primeros 6 datos&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;vf.sim&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;vi.sim&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;f.sim&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;99.73&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;19.96&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;100.11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;20.06&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;4.99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;99.59&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;19.98&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;4.98&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;100.42&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;20.08&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;100.42&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;20.09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;99.97&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;19.91&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5.02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;La figura &lt;a href=&#34;#fig:fsimhis&#34;&gt;3&lt;/a&gt; muestra el histograma de los
+1000 factores de dilución simulados:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:fsimhis&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/index_files/figure-html/fsimhis-1.png&#34; alt=&#34;Histograma de factores de dilución simulados&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: Histograma de factores de dilución simulados
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;“¡Qué interesante!”, dirá Ud., la división de dos variables rectangulares
+genera una distribución de datos que, al menos, es simétrica. ¿Es razonable
+asumir una distribución normal del factor de dilución simulado? Si recuerda
+la discusión en este
+&lt;a href=&#34;https://www.analytical.cl/post/mis-datos-no-son-normales/&#34;&gt;post&lt;/a&gt;,
+podemos evaluar la admisibilidad de esta hipótesis mediante el análisis
+gráfico &lt;em&gt;QQ-Plot&lt;/em&gt; de normalidad de los datos simulados y el test de Shapiro,
+el cual se muestra en la figura &lt;a href=&#34;#fig:fsimnorm&#34;&gt;4&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:fsimnorm&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/index_files/figure-html/fsimnorm-1.png&#34; alt=&#34;QQ-Plot de normalidad de los n factores de dilución simulados&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: QQ-Plot de normalidad de los n factores de dilución simulados
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;
+    Shapiro-Wilk normality test
+
+data:  f.sim
+W = 0.99005, p-value = 2.719e-06&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Aparentemente, el modelo normal sería razonable para modelar el factor de
+dilución sino fuera por los siguientes hechos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;El histograma del factor de dilución tiene “colas livianas”, lo cual se puede
+advertir en el &lt;em&gt;QQ-plot&lt;/em&gt; de normalidad en los valores extremos.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;La evidencia del test de Shapiro en contra de la hipótesis de
+normalidad.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Y lo más importante, la razón de dos variables independientes
+rectangulares (uniformes) teóricamente no es Normal (está demostrado).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ok, probablemente esta discusión no sea de mucho interés por ahora, pero
+nos dará pistas para dirigir la discusión posterior.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Entonces ¿Cómo obtenemos la incertidumbre del factor de dilución por el
+método de Monte Carlo?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Muy sencillo, a partir de la desviación estándar de los factores de dilución
+simulados, es decir, &lt;span class=&#34;math inline&#34;&gt;\(u_{f}^{MC} = 0.02302\)&lt;/span&gt;.
+Como podrá advertir, es muy similar a la obtenida por el método GUM
+&lt;span class=&#34;math inline&#34;&gt;\(u_{f} = 0.02255\)&lt;/span&gt;, la diferencia relativa es de
+un 2.1 %. Es más, ajustando a las
+cifras significativas correctas se obtiene la misma magnitud
+0.02&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¿Queda validado el método GUM con los cálculos del método de Monte Carlo?
+Desde el punto de vista metrológico químico: Sí.
+Desde el punto de vista numérico: Depende.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Lo que sucede es que el numeral 8.1 del suplemento 1 dela guía GUM
+es explícito en establecer
+un criterio de aceptación entre el método GUM y el método de Monte Carlo (MC):&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{eqnarray}
+  |y - U(y) - y_{low}| &amp;amp;&amp;lt;&amp;amp; \xi \\
+  |y + U(y) - y_{high}| &amp;amp;&amp;lt;&amp;amp; \xi
+\end{eqnarray}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;donde &lt;span class=&#34;math inline&#34;&gt;\(y \pm U(y)\)&lt;/span&gt; es el valor calculado de la variable y su incertidumbre
+expandida estimada por el método GUM; &lt;span class=&#34;math inline&#34;&gt;\(y_{low}\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(y_{high}\)&lt;/span&gt; corresponden a
+los percentiles 2.5 y 97.5 de los datos simulados, es decir,
+el intervalo de incertidumbre al 95% de
+confianza calculado por el método de Monte Carlo. &lt;span class=&#34;math inline&#34;&gt;\(\xi\)&lt;/span&gt; es la tolerancia
+numérica entre ambas metodologías de cálculo. Es decir, es un test de
+precisión numérica, no metrológica.&lt;/p&gt;
+&lt;p&gt;El valor de &lt;span class=&#34;math inline&#34;&gt;\(\xi\)&lt;/span&gt; está relacionado las cifras significativas que tienen sentido físico-químico y metrológico. Por ejemplo, si
+para una gravimetría usamos una balanza granataria cuya incertidumbre es del
+orden de &lt;span class=&#34;math inline&#34;&gt;\(\pm 0.1\)&lt;/span&gt; g, no podríamos elegir una tolerancia numérica
+de &lt;span class=&#34;math inline&#34;&gt;\(0.00001\)&lt;/span&gt; g. Para establecer &lt;span class=&#34;math inline&#34;&gt;\(\xi\)&lt;/span&gt; la guía indica lo siguiente:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Exprese &lt;span class=&#34;math inline&#34;&gt;\(u(y)\)&lt;/span&gt; en notación científica manteniendo las cifras
+significativas. En nuestro caso obtuvimos &lt;span class=&#34;math inline&#34;&gt;\(u_{f} = 0.0225\)&lt;/span&gt;, la cual
+puede ser redondeada a una cifra significativa &lt;span class=&#34;math inline&#34;&gt;\(u_{f} = 0.02\)&lt;/span&gt;.
+Esta incertidumbre, entonces, se expresa como &lt;span class=&#34;math inline&#34;&gt;\(2 \cdot 10^{-2}\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Para obtener &lt;span class=&#34;math inline&#34;&gt;\(\xi\)&lt;/span&gt;, utilice el exponente de la potencia de 10 (t = -2)
+del paso anterior, en la siguiente expresión:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{eqnarray}
+  \xi &amp;amp;=&amp;amp; \frac{1}{2}\times 10^{t} \\
+  \xi &amp;amp;=&amp;amp; \frac{1}{2}\times 10^{-2}\\
+  \xi &amp;amp;=&amp;amp; 0.005
+\end{eqnarray}\]&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¿Cómo obtenemos los percentiles 2.5 y 97.5 de la simulación de Monte Carlo?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Muy sencillo, con el comando &lt;code&gt;quantile&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Esto quiere decir, que de los &lt;span class=&#34;math inline&#34;&gt;\(n = 1000\)&lt;/span&gt; datos simulados del factor de
+dilución, un 95% se encuentra dentro del intervalo [4.96, 5.04].
+La figura &lt;a href=&#34;#fig:quantilofig&#34;&gt;5&lt;/a&gt; muestra este intervalo en el histograma de
+los datos simulados:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;hist(f.sim, 
+     xlab = &amp;#39;Factor de dilución&amp;#39;,
+     main = &amp;#39;&amp;#39;,
+     freq = T,
+     breaks = 20,
+     xlim = c(4.93, 5.07))
+
+abline(v = quantilos[1], col = &amp;#39;red&amp;#39;)
+abline(v = quantilos[2], col = &amp;#39;red&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:quantilofig&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/index_files/figure-html/quantilofig-1.png&#34; alt=&#34;Intervalo de confianza al 95% de los datos simulados del factor de dilución&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 5: Intervalo de confianza al 95% de los datos simulados del factor de dilución
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Por lo tanto, sólo nos queda calcular &lt;span class=&#34;math inline&#34;&gt;\(U(y)\)&lt;/span&gt; que es la incertidumbre expandida
+del factor de dilución calculada por el método GUM. De acuerdo a la guía
+&lt;span class=&#34;math inline&#34;&gt;\(U = k\cdot u\)&lt;/span&gt;, donde &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt; es el factor de cobertura para obtener un
+intervalo de incertidumbre con cierto grado de confianza. Aquí es donde la guía
+GUM asume, bajo ciertas condiciones (ver numeral G.2.3), que la variable de
+respuesta, en este caso factor de dilución, puede aproximarse a una distribución
+Normal donde &lt;span class=&#34;math inline&#34;&gt;\(k \approx 2\)&lt;/span&gt;. Advierta que para nuestro ejemplo esta suposición
+no tiene mucho asidero. Por lo tanto, siguiendo las directrices de la guía
+GUM &lt;span class=&#34;math inline&#34;&gt;\(U_{f} = 2\cdot 0.023 = 0.05\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Con todos los datos estimados, llevemos a cabo el test de validación entre
+el método GUM y el método de Monte Carlo:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{eqnarray}
+  |5 - 0.045 - 4.957| &amp;amp;&amp;lt;&amp;amp; 0.005 \\
+  |5 + 0.045 - 5.043| &amp;amp;&amp;lt;&amp;amp; 0.005
+\end{eqnarray}\]&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;En ambos casos &lt;span class=&#34;math inline&#34;&gt;\(0.002 &amp;lt; 0.005\)&lt;/span&gt;, por lo tanto, el método GUM queda validado&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Insisto con lo del mago Tamariz: ¡chiararáaa!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Observaciones:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Si bien en este ejemplo sólo utilizamos &lt;span class=&#34;math inline&#34;&gt;\(n = 1000\)&lt;/span&gt; simulaciones, en la
+práctica se requieren muchas más (&lt;span class=&#34;math inline&#34;&gt;\(10^{5} - 10^{6}\)&lt;/span&gt;). El suplemento 1 de la GUM
+entrega más directrices en este tema.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mientras mayor sea el grado de no linealidad de la ecuación de medición,
+más divergencias habrá entre GUM y MC. Siendo este último el de mayor
+generalidad.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si bien se puede implementar Monte Carlo en Excel, es una tarea bastante
+engorrosa pues debe programarlo en Visual Basic. Le sugiero utilizar lenguajes
+de programación más modernos como &lt;code&gt;R&lt;/code&gt; o &lt;code&gt;Python&lt;/code&gt;, los cuales tienen librerías
+especializadas en métodos de simulación.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A mayor asimetría de la distribución empírica, mayores diferencias habrá
+entre ambos métodos.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dé un sentido químico a la simulación ¿&lt;a href=&#34;https://www.analytical.cl/post/mis-datos-no-son-normales/&#34;&gt;Recuerda que la pureza química no es Normal&lt;/a&gt;?
+Intente con la distribución Beta la cual es más apropiada
+para modelar pureza.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En este post hemos validado el método GUM frente a Monte Carlo “a mano”, es decir,
+hemos hecho el test en forma manual. En el
+&lt;a href=&#34;https://www.analytical.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo-parte2/&#34;&gt;próximo post&lt;/a&gt; utilizaremos
+la librería &lt;code&gt;metRology&lt;/code&gt; la cual incorpora la validación de GUM con MC en un
+único comando &lt;code&gt;GUM.validate&lt;/code&gt;… ¡y listo!.&lt;/p&gt;
+&lt;p&gt;Hasta la próxima.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bibliografía&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Bibliografía&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Evaluation of measurement data – Guide to the expression of uncertainty in
+measurement JCGM 100:2008&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Evaluation of measurement data – Supplement 1 to the “Guide to the expression
+of uncertainty in measurement” – Propagation of distributions using a Monte Carlo
+method JCGM 101:2008&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Stephen L R Ellison &lt;em&gt;metRology: Support for Metrological Applications&lt;/em&gt;
+R package version 0.9-23-2, 2016.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡Mis datos no son normales! ¿Qué hago?...Cálmese, nunca lo fueron... ni lo serán</title>
+      <link>https://www.metrologiaquimica.cl/post/mis-datos-no-son-normales/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/mis-datos-no-son-normales/</guid>
+      <description>
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/mis-datos-no-son-normales/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Bueno, aquí va la primera piedra:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;No existen datos experimentales normales&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sus datos obtenidos en el laboratorio no “siguen” ninguna distribución de
+probabilidad. La naturaleza no “sigue” ninguna distribución de probabilidad.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La Normalidad es sólo una abstracción, es un modelo matemático
+de un fenómeno aleatorio.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Y como todo modelo, podría ser razonable para un conjunto de datos y totalmente
+equivocado para otro. Somos nosotros, los químicos/científicos, quienes
+proponemos modelos del sistema que estamos estudiando y a través de la
+experimentación corroboramos o no estos modelos.&lt;/p&gt;
+&lt;p&gt;Todos los tests estadísticos formales para evaluar la normalidad tampoco
+responden en forma 100% certera si esta hipótesis es válida, pues
+están afectos a los errores de tipo falso positivo (I) y falso negativo (II).
+Por lo tanto, las pruebas estadísticas en la práctica no confirman que los
+datos experimentales sean Normales, sino que nos indican si el modelo Normal
+es razonable o no. Si lo es, actuamos como si “fuesen” normales y hacemos
+inferencia estadística a partir de las propiedades de la Normal.&lt;/p&gt;
+&lt;p&gt;El modelo Normal se describe en la ecuación &lt;a href=&#34;#eq:normal&#34;&gt;(1)&lt;/a&gt; y la figura
+&lt;a href=&#34;#fig:plotnormal&#34;&gt;1&lt;/a&gt; muestra la archiconocida forma de campana:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:normal&#34;&gt;\[\begin{equation}
+  f(x) = \frac{1}{\sigma \sqrt{2\pi}}\exp{-\frac{1}{2}\left(\frac{x - \mu}{\sigma}\right)^2}
+  \tag{1}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;donde &lt;span class=&#34;math inline&#34;&gt;\(\sigma\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(\mu\)&lt;/span&gt; son la desviación estándar y media, respectivamente.
+Notar que la distribución Normal es aplicable sólo a variables &lt;strong&gt;continuas&lt;/strong&gt;,
+tales como concentración, temperatura, masa, etc. No se puede aplicar
+la distribución normal a variables &lt;strong&gt;discretas&lt;/strong&gt; como cuentas de células bajo
+un campo de microscopio, por ejemplo. Quizás algún microbiólogo está
+familiarizado con el uso de logaritmos en sus cálculos de incertidumbre, bueno,
+es porque se utilizan otros modelos de probabilidad para datos discretos (ufc),
+como el modelo Poisson.&lt;/p&gt;
+&lt;p&gt;Advierta también, que los posibles valores que puede tomar la variable &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;
+están en el no despreciable rango entre &lt;span class=&#34;math inline&#34;&gt;\(-\infty\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(+\infty\)&lt;/span&gt;. ¿Ha comprado
+algún estándar de calibración cuyo certificado indique una
+pureza de &lt;span class=&#34;math inline&#34;&gt;\(99.7 \pm 0.5\)&lt;/span&gt; %? Raro ¿no? Bueno, pues el proveedor ha aplicado
+equivocadamente la distribución Normal a una variable que no es Normal: pureza
+química. En efecto, desde el punto de vista químico la pureza está confinada
+al intervalo &lt;span class=&#34;math inline&#34;&gt;\([0, 100]\)&lt;/span&gt; %, por lo tanto, no tiene sentido químico un certificado
+que indique &lt;span class=&#34;math inline&#34;&gt;\(99.7 \pm 0.5\)&lt;/span&gt; %. Para modelar pureza química es necesario utilizar
+una distribución de probabilidad que esté restringida al intervalo &lt;span class=&#34;math inline&#34;&gt;\([0, 100]\)&lt;/span&gt; %
+(o &lt;span class=&#34;math inline&#34;&gt;\([0, 1]\)&lt;/span&gt;) como, por ejemplo, la distribución Beta.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:plotnormal&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/mis-datos-no-son-normales/index_files/figure-html/plotnormal-1.png&#34; alt=&#34;Distribución Normal con media = 0 y sd = 1 &#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Distribución Normal con media = 0 y sd = 1
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Existen varios test para evaluar la palusibilidad de la normalidad de los datos,
+pero en este post discutiremos sólo dos de ellos: El test de Shapiro-Wilk y el
+Test de Anderson-Darling.&lt;/p&gt;
+&lt;p&gt;La matemática detrás de estos tests no es muy digerible, por lo que simplemente
+los ejemplificaremos con algunos datos reales y simulados. La ventaja de
+usar simulaciones es que “creamos” artificialmente datos de la distribución
+que se nos plazca y así verificar el desempeño de estos tests. Si recuerda, ya
+habíamos utilizado la simulación cuando revisamos las pruebas de linealidad
+en este &lt;a href=&#34;https://www.analytical.cl/post/como-demuestro-que-mi-curva-de-calibracion-es-lineal/&#34;&gt;post&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Antes de hacer cualquier prueba estadística de normalidad grafique los datos,
+a través de un histograma y un gráfico de probabilidad Normal&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Estos gráficos le darán una primera aproximación para evaluar el supuesto de
+normalidad. Todos los softwares estadísticos incorporan estos gráficos.
+A continuación los veremos en acción en datos normales simulados en
+lenguaje &lt;code&gt;R&lt;/code&gt;, qué otro. El siguiente es el código para llevar a cabo esta
+simulación de &lt;span class=&#34;math inline&#34;&gt;\(n = 100\)&lt;/span&gt; datos normales:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(123) # Con este comando nos aseguramos de generar siempre
+              # los mismos datos aleatorios. Sino, obviamente, todos
+              # generaríamos números distintos pues son aleatorios ¿no?
+
+n &amp;lt;- 100 # Número de datos a simular
+mu &amp;lt;- 10 # Media de los n = 100 datos
+sigma &amp;lt;- 1 # Desviación estándar de los n = 100 datos
+
+# Genera 100 dato normales con media mu y desviación estándar sigma
+# y guárdalos en el vector llamado x
+x &amp;lt;- rnorm(n, mu, sigma)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Al calcular la media y desviación estándar (muestral) de estos datos obtenemos
+&lt;span class=&#34;math inline&#34;&gt;\(\overline{x} = 10.1\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(s = 0.9\)&lt;/span&gt; “¿Pero cómo?
+¿No habíamos simulado una media de 10 y desviación estándar 1?
+Esto es una estafa” &lt;em&gt;Keep calm&lt;/em&gt; recuerde que son aleatorios.
+La figura &lt;a href=&#34;#fig:normplot&#34;&gt;2&lt;/a&gt; muestra a la izquierda el histograma y a la derecha
+el gráfico de normalidad (&lt;em&gt;QQ-Plot&lt;/em&gt;) de los datos simulados:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:normplot&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/mis-datos-no-son-normales/index_files/figure-html/normplot-1.png&#34; alt=&#34;Izquierda histograma, derecha gráfico de normalidad&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Izquierda histograma, derecha gráfico de normalidad
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;El histograma muestra esa forma de campana característica de la distribución
+normal. Quizás no conozca el gráfico de probabilidad normal o &lt;em&gt;QQ-Plot&lt;/em&gt;, pero
+es la primera evidencia que un estadístico revisa para evaluar la hipótesis de
+normalidad. Note que la “mayoría” de los datos está sobre una línea diagonal roja,
+cuando Ud. observe este patrón podría concluir que el modelo normal es
+&lt;strong&gt;razonable&lt;/strong&gt; o adecuado para modelar sus datos.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¿Son concluyentes estos gráficos?
+No, en absoluto. Simplemente muestran que la normalidad es una hipótesis
+plausible.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Recuerde que estos datos son simulados, por lo tanto, era esperable este
+comportamiento. Pero sus datos experimentales son “reales”, &lt;em&gt;a priori&lt;/em&gt; no sabe
+qué comportamiento podrían evidenciar, sólo puede plantear una hipótesis.&lt;/p&gt;
+&lt;p&gt;Apliquemos ahora los test “formales” de linealidad: test de Shapiro y
+test de Anderson. Ambos tests intentan
+evaluar la hipótesis nula &lt;span class=&#34;math inline&#34;&gt;\(H_{0}\)&lt;/span&gt; que los datos provienen de una
+distribución Normal:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(nortest) # Cargamos esta librería que contiene varios test de
+                 # Normalidad, entre ellos Anderson-Darling
+
+# Test de Shapiro-Wilk (no requiere librería nortest)
+shapiro.test(x)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;
+    Shapiro-Wilk normality test
+
+data:  x
+W = 0.99388, p-value = 0.9349&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# test de Anderson-Darling
+ad.test(x)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;
+    Anderson-Darling normality test
+
+data:  x
+A = 0.182, p-value = 0.9104&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La interpretación tradicional de las pruebas de hipótesis sería más o
+menos la siguiente:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ya que el &lt;em&gt;p-value&lt;/em&gt; &amp;gt; 0,05, entonces, no hay evidencia para rechazar la
+hipótesis de normalidad de los datos. ¿Se conluye, entonces, que los
+datos son normales? No. Simplemente, no tenemos la evidencia para rechzar la
+hipótesis.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Por lo tanto, no es que los datos sean normales, sino que la hipótesis de
+normalidad es razonable, por lo que actuaremos como si fuese cierto.
+Obviamente, estos resultados eran esperables pues hemos “creado” datos
+normales, pero recuerde que sus datos son “reales”, no simulados. Hay otras
+consideraciones de las pruebas de hipótesis que no mencionaremos por espacio,
+pero que un post futuro discutiremos en profundidad. Especialmente, esta
+perversa dicotomía del &lt;em&gt;p-value&lt;/em&gt; &amp;lt; ó &amp;gt; 0,05 de la cual ya hicimos mención
+en este &lt;a href=&#34;https://www.analytical.cl/post/como-demuestro-que-mi-curva-de-calibracion-es-lineal/&#34;&gt;post&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“The p-value was never intended to be a substitute for scientific reasoning”
+Ron Wasserstein, Director Ejecutivo de la Asociación Americana de Estadística
+ASA.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Nota&lt;/strong&gt;: Para tamaños de muestra grandes (&lt;span class=&#34;math inline&#34;&gt;\(n &amp;gt; 1000\)&lt;/span&gt;), una pequeña desviación
+de la normalidad hará que los tests estadísticos acusen No Normalidad&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Cuando nos referimos a “actuar como si fuese cierto”, estamos diciendo que todos
+aquellos procedimientos estadísticos que suponen normalidad de los datos,
+funcionarán de acuerdo a la teoría. ¿Cuáles son estos métodos estadísticos que
+requieren normalidad de los datos?:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Test de Student en todas sus variantes (es un test de sesgo)&lt;/li&gt;
+&lt;li&gt;Test de Fisher para comparar varianzas (precisión analítica de 2 métodos)&lt;/li&gt;
+&lt;li&gt;Curva de calibración lineal&lt;/li&gt;
+&lt;li&gt;Máxima diferencia tolerable entre duplicados de análisis, discutido &lt;a href=&#34;https://www.analytical.cl/post/cual-maxima-diferencia-tolerable-entre-duplicados-analisis/&#34;&gt;aquí&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Análisis de varianza para evaluar varios métodos analíticos o analistas&lt;/li&gt;
+&lt;li&gt;Intervalos de confianza para la media de concentraciones.&lt;/li&gt;
+&lt;li&gt;Incertidumbre de métodos analíticos. El &lt;span class=&#34;math inline&#34;&gt;\(k = 2\)&lt;/span&gt; asume normalidad de las
+concentraciones.&lt;/li&gt;
+&lt;li&gt;… y un largo etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ok, es cierto, a medida que aumenta el &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; la suposición de normalidad es cada
+vez menos relevante. De hecho algunos de los tests mencionados arriba son
+más o menos “robustos” a la suposición de normalidad.&lt;/p&gt;
+&lt;div id=&#34;qué-observaríamos-si-la-hipótesis-de-normalidad-fuese-totalmente-inverosímil-para-modelar-nuestros-datos&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;¿Qué observaríamos si la hipótesis de normalidad fuese totalmente inverosímil para modelar nuestros datos?&lt;/h1&gt;
+&lt;p&gt;Simulemos ahora datos no normales y veamos cuáles son los resultados tanto de los
+gráficos exploratorios como de las pruebas estadísticas formales:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Simularemos m = 100 datos discretos de una distribución Poisson
+
+set.seed (123) # Para que pueda reproducir los datos
+m &amp;lt;- 100 # m = 100 datos
+lambda &amp;lt;- 5 # Parámetro de la distribución Poisson
+
+# Generar m = 100 datos de una distribución Poisson con parámtro lambda = 5
+y &amp;lt;- rpois(m, lambda)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/mis-datos-no-son-normales/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    ¿No les parece familiar el QQ-Plot a aquellos que validan homogeneidad de peso en
+validación de procesos farmacéuticos? 1313
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;La evidencia de los gráficos es abrumadora, los datos no son normales. Esto
+concuerda con lo que muestran los tests estadísticos de normalidad:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Test de Shapiro-Wilk (no requiere librería nortets)
+shapiro.test(y)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;
+    Shapiro-Wilk normality test
+
+data:  y
+W = 0.97077, p-value = 0.02531&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# test de Anderson-Darling
+ad.test(y)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;
+    Anderson-Darling normality test
+
+data:  y
+A = 1.2355, p-value = 0.003072&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Como era esperable, ambos tests confirman que la hipótesis de normalidad
+no es razonable para modelar los datos(&lt;em&gt;p-value&lt;/em&gt; &amp;lt; 0,05)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;si-mis-datos-no-son-normales-entonces-cómo-los-analizo&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Si mis datos no son normales, entonces ¿Cómo los analizo?&lt;/h1&gt;
+&lt;p&gt;Tranquilo(a), el mundo sigue girando. Existen varios métodos estadísticos
+que Ud. puede utilizar para analizar datos donde la hipótesis de normalidad
+no es razonable o se ha demostrado empíricamente que no es :&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Bootstrap&lt;/strong&gt;: Utilizado, entre otros propósitos, para obtener intervalos de
+confianza para datos no normales.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tests no paramétricos&lt;/strong&gt;: Análogos a las pruebas paramétricas tradicionales
+(Test T, ANOVA, etc.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tests de permutaciones&lt;/strong&gt;: También son una excelente alternativa a las
+pruebas paramétricas tradicionales y funcionan, incluso, para conjuntos
+pequeños de datos. Son tests “exactos”, pero necesitan que Ud. disponga de un
+buen “tarro” (computador) pues son &lt;em&gt;computationally-intensive methods&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modelos lineales generalizados&lt;/strong&gt;: Idóneos para modelar datos discretos como
+cuentas de células (leucocitos, ufc, etc.) o variables dicotómicas
+(Conforme/No Conforme), etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transformación de datos&lt;/strong&gt;: Especialmente útiles son la transformación de
+Johnson y la de Box-Cox.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Estadística Robusta&lt;/strong&gt;: No tan sólo son útiles para minimizar el
+efecto de valores anómalos (&lt;em&gt;outliers&lt;/em&gt;), sino también para obener estimadores de
+datos que no son normales.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para finalizar veamos en acción uno de estos métodos: Bootstrap.
+Sin embargo, el detalle estadístico y su implementación los veremos en otro post, por ahora,
+simplemente lo ejemplificaremos. La figura &lt;a href=&#34;#fig:As&#34;&gt;3&lt;/a&gt; muestra
+el histograma y el &lt;em&gt;QQ-Plot&lt;/em&gt; de normalidad correspondientes a datos de concentración de arsénico [ppm] muestreados en &lt;span class=&#34;math inline&#34;&gt;\(n = 271\)&lt;/span&gt; pozos de agua en
+Bangladesh:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:As&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/mis-datos-no-son-normales/index_files/figure-html/As-1.png&#34; alt=&#34;Histograma y QQ-Plot datos de Arsénico [ppm] en n = 271 pozos en Bangladesh&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: Histograma y QQ-Plot datos de Arsénico [ppm] en n = 271 pozos en Bangladesh
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Claramente, ni si quiera es necesario hacer un test de normalidad, la evidencia
+que muestra la figura &lt;a href=&#34;#fig:As&#34;&gt;3&lt;/a&gt; en contra de la hipótesis de normalidad es abrumadora. El promedio de la concentración de As es
+&lt;span class=&#34;math inline&#34;&gt;\(\overline{x} = 125\)&lt;/span&gt; ppm y la
+desviación estándar &lt;span class=&#34;math inline&#34;&gt;\(s = 298\)&lt;/span&gt; ppm. Utilizando
+la fórmula usual para estimar un intervalo de confianza al 95% para la media
+&lt;span class=&#34;math inline&#34;&gt;\(\overline{x} \pm t_{\alpha/2, n - 1} s/\sqrt{n}\)&lt;/span&gt; obtenemos
+[90, 161] ppm As. Sin embargo, la gran asimetría de los datos
+hace inverosímil el intervalo obtenido.&lt;/p&gt;
+&lt;p&gt;Al aplicar el método &lt;em&gt;bootstrap&lt;/em&gt; obtenemos un intervalo para la media al 95% (BCa) entre [95, 164] ppm As, el cual es más
+“correcto” por si Ud. necesita informar este parámetro. La figura
+&lt;a href=&#34;#fig:Asboot&#34;&gt;4&lt;/a&gt; muestra el histograma y QQ-Plot de normalidad de
+el método de bootstrap. Advierta el Teorema Central del Límite en su
+máxima expresión.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:Asboot&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/mis-datos-no-son-normales/index_files/figure-html/Asboot-1.png&#34; alt=&#34;Histograma y QQ-Plot de las estimaciones de la media de los datos de As con N = 1000 remuestreos&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Histograma y QQ-Plot de las estimaciones de la media de los datos de As con N = 1000 remuestreos
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Bueno estimado lector, nos vemos pronto. Saludos.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bibliografía&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Bibliografía&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Ghasemi A, Zahediasl S. Normality Tests for Statistical Analysis: A Guide for Non-Statisticians. &lt;em&gt;International Journal of Endocrinology and Metabolism&lt;/em&gt;. 2012;10(2):486-489. &lt;a href=&#34;doi:10.5812/ijem.3505&#34; class=&#34;uri&#34;&gt;doi:10.5812/ijem.3505&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Henry C. Thode &lt;em&gt;Testing For Normality&lt;/em&gt; CRC Press 2002&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://bit.ly/2pfPsRg&#34;&gt;Is normality testing ‘essentially useless’?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Cuál es la máxima diferencia tolerable entre duplicados de análisis?</title>
+      <link>https://www.metrologiaquimica.cl/post/cual-es-la-maxima-diferencia-tolerable-entre-duplicados-de-analisis/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/cual-es-la-maxima-diferencia-tolerable-entre-duplicados-de-analisis/</guid>
+      <description>
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/cual-es-la-maxima-diferencia-tolerable-entre-duplicados-de-analisis/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/cual-es-la-maxima-diferencia-tolerable-entre-duplicados-de-analisis/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://www.metrologiaquimica.cl/post/cual-es-la-maxima-diferencia-tolerable-entre-duplicados-de-analisis/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+
+&lt;p&gt;Un día cualquiera en un laboratorio que aún no establece criterios de aceptación
+de precisión:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Duplicado 1 = 25.56 % Cu&lt;/li&gt;
+&lt;li&gt;Duplicado 2 = 25.66 % Cu&lt;/li&gt;
+&lt;li&gt;Diferencia = 0.10 % Cu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La diferencia observada ¿es aceptable para el laboratorio?&lt;/p&gt;
+&lt;p&gt;Para responder a esta pregunta debemos considerar varias cosas:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;¿Los duplicados fueron realizados en condiciones de repetibilidad o
+reproducibilidad?&lt;/li&gt;
+&lt;li&gt;¿Existe alguna normativa al respecto que se deba cumplir?&lt;/li&gt;
+&lt;li&gt;¿Cuál es la metodología analítica? No es lo mismo determinar Cu en
+concentrado de cobre por electrogravimetría (método primario) que por
+Fluorescencia de Rayos X.&lt;/li&gt;
+&lt;li&gt;¿Cuál es la incertidumbre del método analítico?&lt;/li&gt;
+&lt;li&gt;¿Existe algún acuerdo a nivel comercial sobre estas diferencias?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para abordar este problema tendremos que hace la suposición que
+los duplicados fueron obtenidos en condiciones de repetibilidad, es decir: mismo
+analista, mismo día, mismo instrumento, etc. Bajo esta premisa hay varias formas
+de estimar la máxima diferencia tolerable entre duplicados de análisis.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Nota&lt;/strong&gt;: En realidad, los conceptos que mostraremos a continuación son
+completamente análogos para estimar la máxima diferencia tolerable en
+condiciones de reproducibilidad. Sin embargo, dedicaremos otro post a ese tema
+específico.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;El concepto estadístico clave para establecer la tolerancia entre duplicados
+es el límite de repetibilidad &lt;span class=&#34;math inline&#34;&gt;\(r\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&#34;límite-de-repetibilidad-r-iso-5725&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Límite de repetibilidad &lt;span class=&#34;math inline&#34;&gt;\(r\)&lt;/span&gt; ISO 5725&lt;/h1&gt;
+&lt;p&gt;La guía ISO 5725 define el límite de repetibilidad &lt;span class=&#34;math inline&#34;&gt;\(r\)&lt;/span&gt; de la siguiente manera:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+r = 2.8\cdot s_{r}
+\]&lt;/span&gt;
+y corresponde a la máxima diferencia, en valor absoluto, que puede
+tolerarse entre duplicados de análisis, obtenidos bajo condiciones de
+repetibilidad con un 95% de confianza. Veamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(s_{r}\)&lt;/span&gt; es la desviación estándar de repetibilidad, la cual da cuenta de
+la dispersión de las diferencias entre duplicados. Ya explicaremos cómo
+calcular este parámetro.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;El factor &lt;strong&gt;2.8&lt;/strong&gt;: aquí les exijo una prueba de fe mis hermanos, me tienen que
+creer porque si quieren la demostración, aumentaría mucho la viscosidad
+de este post . A &lt;em&gt;grosso modo&lt;/em&gt;, el factor
+2.8 tiene que ver con el 95% de confianza, nos indica que cuando se establece
+la máxima diferencia
+tolerable, está permitido que el 5% de los duplicados estén fuera del
+límite &lt;span class=&#34;math inline&#34;&gt;\(r\)&lt;/span&gt;, y aún el
+sistema analítico se encontraría bajo &lt;em&gt;Control Estadístico&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cómo-obtenemos-la-precisión-de-repetibilidad-s_r&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;¿Cómo obtenemos la precisión de repetibilidad &lt;span class=&#34;math inline&#34;&gt;\(s_{r}\)&lt;/span&gt;?&lt;/h1&gt;
+&lt;p&gt;Existen varios métodos estadísticos para abordar la estimación de la
+desviación estándar de repetibililidad &lt;span class=&#34;math inline&#34;&gt;\(s_{r}\)&lt;/span&gt;, sin embargo, en este post
+nos enfocaremos en los dos más utilizados en química analítica:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Estimación basada en el registro histórico de duplicados de análisis.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;La estimación mediante estudios de precisión siguiendo las directrices de la
+guía ISO 5725.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;No describiremos todos los detalles de cada uno de los diseños experimentales
+expuestos en estas guías, más bien, ejemplificaremos el cálculo de la desviación
+estándar de repetibilidad &lt;span class=&#34;math inline&#34;&gt;\(s_{r}\)&lt;/span&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;método-de-estimación-en-base-a-datos-históricos-de-duplicados&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Método de estimación en base a datos históricos de duplicados&lt;/h1&gt;
+&lt;p&gt;Obviamente necesitamos crear una base de datos con los registros de análisis
+de muestras en duplicados en condiciones de repetibilidad. Estas muestras
+pueden corresponder a muestras de clientes, materiales de referencia primarios
+o secundarios, muestras control, etc. Lo importante es que ambos duplicados
+cumplan con las condiciones de repetibilidad. La tabla &lt;a href=&#34;#tab:bdsr&#34;&gt;1&lt;/a&gt; es un
+ejemplo de una base de datos a utilizar en este método:&lt;/p&gt;
+&lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;caption&gt;
+&lt;span id=&#34;tab:bdsr&#34;&gt;Table 1: &lt;/span&gt;Base de datos histórica de duplicados (sólo los primeros 6 datos)
+&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+ID
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Duplicado 1
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Duplicado 2
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+QAQC-01
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+30.79
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+30.54
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+QAQC-02
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+31.89
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+32.04
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+QAQC-03
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+31.28
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+31.32
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+QAQC-04
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+31.30
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+30.89
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+QAQC-05
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+30.70
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+30.66
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+QAQC-06
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+30.86
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+30.69
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Puede descargar esta base de datos desde este &lt;a href=&#34;https://1drv.ms/x/s!AuF6FPVWruwDyb4zAv7amIDqVpCvYA?e=5oqkgc&#34;&gt;link&lt;/a&gt;.
+Y ahora la pregunta del millón:
+¿Cuántas muestras en duplicado necesito? Si bien es posible obtener un cálculo
+“exacto” del número de muestras &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt;, esto está fuera del alcance de este post.
+Sin embargo, podemos decir que &lt;span class=&#34;math inline&#34;&gt;\(n &amp;gt; 25\)&lt;/span&gt; es un número inicial adecuado.&lt;/p&gt;
+&lt;p&gt;Una vez construida la base de datos, se puede obtener una estimación de &lt;span class=&#34;math inline&#34;&gt;\(s_{r}\)&lt;/span&gt;
+mediante la ecuación &lt;a href=&#34;#eq:srdup&#34;&gt;(1)&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:srdup&#34;&gt;\[\begin{equation}
+  s_{r} = \sqrt{\frac{\sum_{i = 1}^{n} (x_{i1} - x_{i2})^2}{2n}}
+  \tag{1}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Esta ecuación puede ser fácilmente implementada en Excel pero en este post,
+como no, haremos los cálculos en lenguaje R. Pero antes, observe la figura
+&lt;a href=&#34;#fig:dup&#34;&gt;1&lt;/a&gt; la cual muestra un gráfico de dispersión entre Duplicado 1 (&lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;)
+y Duplicado 2 (&lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;). En este caso el orden es irrelevante. Si ajustáramos un
+modelo lineal entre ambas variables ¿Qué valores de pendiente e intercepto
+deberíamos obtener?&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:dup&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/cual-es-la-maxima-diferencia-tolerable-entre-duplicados-de-analisis/index_files/figure-html/dup-1.png&#34; alt=&#34;Gráfico de dispersión entre duplicados&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Gráfico de dispersión entre duplicados
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¡Correcto! Pendiente &lt;span class=&#34;math inline&#34;&gt;\(\beta_{1} = 1\)&lt;/span&gt; e intercepto &lt;span class=&#34;math inline&#34;&gt;\(\beta_{0} = 0\)&lt;/span&gt;. La línea
+roja representa esta recta teórica.
+Note también que la dispersión de los datos es constante en todo el rango
+de concentración, propiedad denominada &lt;strong&gt;Homocedasticidad&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Esta propiedad es deseable, sin embargo, no todos los sistemas analíticos la
+poseen. En sí misma no es una problema, sin embargo, si la varibilidad de los
+duplicados aumenta con la concentración (&lt;em&gt;heterocedasticidad&lt;/em&gt;)
+tendremos que modelar esta variabilidad
+en función de la concentración en forma explícita o segmentar el rango, lo cual
+veremos en otro post.&lt;/p&gt;
+&lt;p&gt;También advierta la presencia de datos alejados de la diagonal, es decir,
+diferencias entre duplicados grandes. ¿Qué hacemos
+con ellos?¿Los mantenemos o los eliminamos?&lt;/p&gt;
+&lt;p&gt;Si los eliminamos, y realmente
+reflejaran la variabilidad del método, entonces subestimaríamos la
+máxima diferencia tolerable entre duplicados, aumentando la frecuencia de
+alertas de duplicados no conformes (nos ponemos la soga al cuello solitos).
+Si los mantenemos, y realmente fueron &lt;em&gt;errores&lt;/em&gt; puntuales de medición,
+sobreestimaríamos la tolerancia y la carta control sería de poca utilidad
+(mágicamente todos los datos caerían siempre dentro del los límites).
+Este tema lo abordaremos en otro post (llevo una lista).&lt;/p&gt;
+&lt;p&gt;Como dato “anecdótico” en las operaciones de &lt;em&gt;trading&lt;/em&gt; en el mercado mundial
+de concentrado de cobre, la máxima diferencia tolerable entre resultados de
+distintos laboratorios (a.k.a exportador v/s importador) es 0,20 % Cu. Si la
+diferencia supera este límite, ambos negociadores se van a un arbitraje
+(multiplique 0,2 % Cu por la millones de toneladas que se transan en el mercado…a
+&lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; US/libra no es un asunto trivial).&lt;/p&gt;
+&lt;p&gt;Utilizando los datos históricos estimamos una desviación
+estándar de repetibilidad de &lt;span class=&#34;math inline&#34;&gt;\(s_{r} = 0.2\)&lt;/span&gt; % Cu. Por lo tanto,
+el límite de repetibilidad es obtenido de la ecuación &lt;a href=&#34;#eq:limr&#34;&gt;(2)&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:limr&#34;&gt;\[\begin{eqnarray}
+  r &amp;amp;=&amp;amp; 2.8\cdot s_{r} \\
+  r &amp;amp;=&amp;amp; 2.8\cdot 0.2 \\
+  r &amp;amp;=&amp;amp; 0.57\, \text{% Cu}
+  \tag{2}
+\end{eqnarray}\]&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interpretación&lt;/strong&gt;: La máxima diferencia tolerable, en valor absoluto,
+entre duplicados de análisis en condiciones de repetibilidad es
+&lt;span class=&#34;math inline&#34;&gt;\(r = 0.57\)&lt;/span&gt; % Cu.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Entonces, dados los datos iniciales:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Duplicado 1 = 25.56 % Cu&lt;/li&gt;
+&lt;li&gt;Duplicado 2 = 25.66 % Cu&lt;/li&gt;
+&lt;li&gt;Diferencia = 0.10 % Cu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La diferencia encontrada entre duplicados
+&lt;span class=&#34;math inline&#34;&gt;\(\Delta = 0.1 &amp;lt; 0.57\)&lt;/span&gt; % Cu, por lo tanto, se acepta
+la diferencia entre duplicados, es un dato de QAQC conforme.&lt;/p&gt;
+&lt;p&gt;¿Y qué hacemos si no tenemos datos históricos de duplicados? Por favor,
+continue leyendo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;estimación-mediante-estudios-de-precisión-siguiendo-las-directrices-de-la-guía-iso-5725&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Estimación mediante estudios de precisión siguiendo las directrices de la guía ISO 5725&lt;/h1&gt;
+&lt;p&gt;Cuando no existen datos históricos, la guía ISO 5725 sugiere llevar a cabo
+un diseño experimental en el cual se estudien diversos factores que podrían,
+eventualmente, tener un efecto importante en la precisión del método analítico.
+Por ejemplo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Analistas distintos&lt;/li&gt;
+&lt;li&gt;Equipos de medición (cromatógrafos, AAS, etc.)&lt;/li&gt;
+&lt;li&gt;Días distintos&lt;/li&gt;
+&lt;li&gt;Etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El “problema” de esta aproximación es que a medida que crece el número de
+factores, el tamaño del diseño experimental (a.k.a número de experientos) crece
+en forma rápida incluso, en algunos diseños, en forma exponencial.&lt;/p&gt;
+&lt;p&gt;La ventaja de este método es que permite estimar en un único estudio la precisión
+de repetibilidad, reproducibilidad y la precisión intermedia, es decir,
+entre-analistas, entre-equipos, etc. La otra ventaja es que permite estimar los
+denominados componentes de varianza “¿Y?” – se preguntará.
+Bueno, los componentes de varianza nos indican cuál es el factor que más aporta
+a la variabilidad del sistema analítico ¿será la variabilidad entre-analistas?
+¿o los distintos equipos que dispone el laboratorio? De esta forma Ud. podrá
+focalizar los esfuerzos y recursos en mejorar la precisión del método sólo
+en aquellos factores que más aporten a la variabilidad total.&lt;/p&gt;
+&lt;p&gt;Veamos en qué consiste este método de estimación de precisión en base al
+estudio del factor &lt;strong&gt;Analista&lt;/strong&gt;. Existen varios diseños experimentales para
+evaluar este factor, sin embargo, en este post comenzaremos con algo
+&lt;em&gt;light&lt;/em&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Estimaremos la precisión de reptibilidad y reproducibilidad del método
+volumétrico para la determinación de Cu en concentrado de cobre,
+en un laboratorio donde &lt;span class=&#34;math inline&#34;&gt;\(n = 4\)&lt;/span&gt; analistas son igualmente
+competentes para llevar a cabo el análisis, siguiendo el mismo
+instructivo.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Para abordar este objetivo, proponemos el siguiente diseño experimental:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;doe.png&#34; width=&#34;700&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Diseño Experimental&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Una única muestra será analizada por los &lt;span class=&#34;math inline&#34;&gt;\(n = 4\)&lt;/span&gt; analistas.&lt;/li&gt;
+&lt;li&gt;Cada analista realizará el análisis en quintuplicado &lt;span class=&#34;math inline&#34;&gt;\(j = 5\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Los &lt;span class=&#34;math inline&#34;&gt;\(k = n\cdot j = 20\)&lt;/span&gt; análisis deben ser obtenidos en
+condiciones de repetibilidad&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Si bien podríamos publicar una enciclopedia de posts sobre diseño experimental
+en química, surgen algunas preguntas sobre este diseño en particular:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;¿Por qué una única muestra? Porque si cada analista recibiera una muestra
+distinta, entonces la precisión del factor analista estaría “contaminada”
+con la variabilidad entre muestras, la cual no nos interesa en este
+estudio.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;¿Y si una única muestra no es suficiente para llevar a cabo los 20
+análisis? Existen otros diseños experimentales denominados &lt;em&gt;anidados&lt;/em&gt; que
+permiten estimar la precisión utilizando muestras distintas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;¿Por qué los análisis de cada analista deben ser obtenidos en condiciones
+de repetibilidad? Porque no queremos que otro factor no controlado (por ejemplo,
+equipos distintos) influya en la estimación de la precisión entre-analistas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En lo posible, aumente el número de analistas en vez de hacer muchos
+replicados. Es mejor 5 analistas en triplicado, que 3 en quintuplicado.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“La” muestra podría corresponder a una muestra del cliente. No es necesario
+que sea un material de referencia, sin embargo, esta
+muestra debe ser lo suficientemente homogénea… ¡Ah, eso es trampa!
+¿Cómo demostramos que la muestra es homogénea? Le doy un dato, anote:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Si su muestra es material particulado, le tengo malas noticias: No existen
+las muestras homogéneas de este tipo de material (gracias a san Pierre Gy
+por el dato).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Como mencionamos anteriormente podríamos postear &lt;em&gt;ad infinitum&lt;/em&gt; sobre diseño
+de exprimentos en química, sin embargo, la banda ancha es finita así que
+vamos al grano. La tabla &lt;a href=&#34;#tab:doe&#34;&gt;2&lt;/a&gt; muestra los datos experimentales
+del estudio de precisión propuesto:&lt;/p&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;span id=&#34;tab:doe&#34;&gt;Table 2: &lt;/span&gt;Resultados de estudio de precisión [% Cu]
+&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Replicado
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Analista 1
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Analista 2
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Analista 3
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Analista 4
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.74
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.73
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.06
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.00
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.06
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.16
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.17
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.98
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.34
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.98
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.24
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.79
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.28
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.11
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.80
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.65
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.02
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.72
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+25.11
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.82
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Antes de llevar a cabo el análisis estadístico formal, observemos la figura
+&lt;a href=&#34;#fig:doeplot&#34;&gt;2&lt;/a&gt; la cual muestra el valor promedio de cada analista
+&lt;span class=&#34;math inline&#34;&gt;\(\pm\)&lt;/span&gt; 1 desviación estándar. Ella nos indica que, aparentemente, los resultados
+entre los analistas son bastante consistentes.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:doeplot&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/cual-es-la-maxima-diferencia-tolerable-entre-duplicados-de-analisis/index_files/figure-html/doeplot-1.png&#34; alt=&#34;Boxplot estudio de precisión&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Boxplot estudio de precisión
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ahora bien ¿Cómo, entonces, estimamos la precisión de repetibilidad y
+reproducibilidad a partir de la tabla &lt;a href=&#34;#tab:doe&#34;&gt;2&lt;/a&gt;? Fácil, con el
+todopoderoso Análisis de Varianza (ANOVA).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;No detallaremos la matemática detrás de esta poderosa técnica, sin embargo,
+diremos simplemente que el ANOVA es un método cuyo propósito es particionar
+la variabilidad total de un conjunto de datos en componentes que intentan
+explicarla. Aplicada a nuestro caso, utilizaremos ANOVA para particionar
+la variabilidad total de los 20 resultados de % Cu entre dos componentes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El factor analista&lt;/li&gt;
+&lt;li&gt;La repetiblidad del método analítico.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;para lo cual seguiremos paso a paso las instrucciones de la guía ISO 5725.
+En primer lugar obtendremos la tabla ANOVA mediante lenguaje &lt;code&gt;R&lt;/code&gt;:&lt;/p&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;span id=&#34;tab:aov&#34;&gt;Table 3: &lt;/span&gt;Tabla ANOVA precisión
+&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Origen Variación
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+g.l
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+SQ
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+MS
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+F calculado
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+p-value
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+analista
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.07
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+1.8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.19
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Residuals
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+16
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.04
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Las tablas ANOVA muy similares en casi todos los softwares estadísticos
+profesionales… y en Excel también. Entonces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Repetibilidad &lt;span class=&#34;math inline&#34;&gt;\(s_{r}\)&lt;/span&gt;: Es simplemente la raíz cuadrada del término
+&lt;span class=&#34;math inline&#34;&gt;\(MS\)&lt;/span&gt; de los &lt;strong&gt;Residuos&lt;/strong&gt;. En la nomenclatura de ANOVA es lo que se conoce como
+variabilidad dentro (&lt;em&gt;within&lt;/em&gt;). Para los datos de la tabla &lt;a href=&#34;#tab:doe&#34;&gt;2&lt;/a&gt; se obtiene
+&lt;span class=&#34;math inline&#34;&gt;\(s_{r} = \sqrt{\text{MS}_{Residuals}} = \sqrt{0.04} = 0.19\)&lt;/span&gt;
+% Cu.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Precisión intermedia o variabilidad entre-analistas &lt;span class=&#34;math inline&#34;&gt;\(s_{analista}\)&lt;/span&gt;:
+¡No tan rápido!
+No es la raíz cuadrada de &lt;span class=&#34;math inline&#34;&gt;\(MS\)&lt;/span&gt; del factor analista. Debemos hacer el
+siguiente cálculo adicional:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{eqnarray}
+  s_{analista} &amp;amp;=&amp;amp; \sqrt{\frac{MS_{analista} - MS_{Residuals}}{j}} \\
+  s_{analista} &amp;amp;=&amp;amp; \sqrt{\frac{0.07 - 0.04}{5}} \\
+  s_{analista} &amp;amp;=&amp;amp; 0.08\, \text{% Cu} 
+\end{eqnarray}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;donde &lt;span class=&#34;math inline&#34;&gt;\(j = 5\)&lt;/span&gt; es el número de replicados que hizo cada analista&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reproducibilidad &lt;span class=&#34;math inline&#34;&gt;\(s_{R}\)&lt;/span&gt;: Es simplemente la combinación en cuadratura de
+las precisiones arriba calculadas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{eqnarray}
+  s_{R} &amp;amp;=&amp;amp; \sqrt{s_{r}^{2} + s_{analista}^2}\\
+  s_{R} &amp;amp;=&amp;amp; 0.21\, \text{% Cu}
+\end{eqnarray}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Por lo tanto, con estos datos podemos calcular el límite de repetibilidad
+sin necesidad de tener una base de datos histórica de duplicados. En este
+caso &lt;span class=&#34;math inline&#34;&gt;\(r = 2.8 s_{r} = 0.58\)&lt;/span&gt; % Cu.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¿Y si quisiera establecer la máxima diferencia tolerable entre analistas?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Nos vemos en el siguiente post.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bonus-track-breve-historia-del-factor-2.8&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;em&gt;Bonus track&lt;/em&gt; : Breve historia del factor 2.8&lt;/h1&gt;
+&lt;p&gt;Sea &lt;span class=&#34;math inline&#34;&gt;\(x_{1}\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(x_{2}\)&lt;/span&gt; los duplicados de análisis 1 y 2, respectivamente.
+Cada uno de ellos “sigue” una distribución Normal con media &lt;span class=&#34;math inline&#34;&gt;\(\mu\)&lt;/span&gt; y
+varianza &lt;span class=&#34;math inline&#34;&gt;\(V = \sigma_{r}^2\)&lt;/span&gt; y, además, entre ellos son &lt;em&gt;independientes&lt;/em&gt;,
+entonces se cumple lo siguiente:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;la diferencia entre duplicados &lt;span class=&#34;math inline&#34;&gt;\(\Delta = x_{1} - x_{2}\)&lt;/span&gt; sigue una distribución Normal con media 0 y
+varianza &lt;span class=&#34;math inline&#34;&gt;\(V_{\Delta} = V(x_{1} - x_{2}) = V(x_{1}) + V(x_{2}) = 2\sigma_{r}^2\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si la varianza de las diferencias es &lt;span class=&#34;math inline&#34;&gt;\(V_{\Delta} = 2\sigma_{r}^2\)&lt;/span&gt;, entonces la
+desviación estándar es &lt;span class=&#34;math inline&#34;&gt;\(\sqrt{2} \sigma_{r}\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Por lo tanto, si quisiéramos construir un intervalo de
+confianza al 95% para la diferencia entre duplicados obtendríamos
+&lt;span class=&#34;math inline&#34;&gt;\(\Delta \pm 2\sqrt{2} \sigma_{r}\)&lt;/span&gt;. El 2 es por que para una distribución Normal se
+sabe que entre la media &lt;span class=&#34;math inline&#34;&gt;\(\pm\)&lt;/span&gt; 2 la desviación estándar se encuentran aproximadamente
+el 95% de las observaciones.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(s_{r}\)&lt;/span&gt; es la estimación de &lt;span class=&#34;math inline&#34;&gt;\(\sigma_{r}\)&lt;/span&gt;, la cual es fija pero desconocida.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Como &lt;span class=&#34;math inline&#34;&gt;\(\sqrt{2}\approx 1,41\)&lt;/span&gt; entonces, con un 95% de confianza, la
+diferencia se encuentra
+entre &lt;span class=&#34;math inline&#34;&gt;\(\Delta \pm 2\cdot 1,41 \cdot s_{r} = 2.8\cdot s_{r}\)&lt;/span&gt;. Ahora imágineme como
+el mago Tamariz al final de sus actos tocando el violín ¡chiararaaá! (Si eres
+&lt;em&gt;old school&lt;/em&gt; sabrás quien es el mago Tamariz. Si eres &lt;em&gt;millenial&lt;/em&gt; mira este &lt;a href=&#34;https://www.youtube.com/watch?v=zcSqG2v-MZQ&#34;&gt;video&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bibliografía&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Bibliografía&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;ISO 5725 – 3:1994 Accuracy (trueness and precision) of measurement methods and results – Part 3: Intermediate measures of the precision of a standard measurement method&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Michael Thompson, Bertil Magnusson Methodology in internal quality control of
+chemical analysis &lt;em&gt;Accreditation and Quality Assurance August 2013, Volume 18,
+Issue 4, pp 271–278&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Cómo demuestro que mi curva de calibración es lineal?</title>
       <link>https://www.metrologiaquimica.cl/post/como-demuestro-que-mi-curva-de-calibracion-es-lineal/</link>
-      <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       <guid>https://www.metrologiaquimica.cl/post/como-demuestro-que-mi-curva-de-calibracion-es-lineal/</guid>
       <description>
 &lt;script src=&#34;https://www.metrologiaquimica.cl/post/como-demuestro-que-mi-curva-de-calibracion-es-lineal/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
@@ -635,461 +2947,6 @@ coefficient. &lt;em&gt;Accred Qual Assur (2006) 11: 146.&lt;/em&gt;
 &lt;em&gt;Anal. Methods, 2013,5, 1145-1149&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>test math</title>
-      <link>https://www.metrologiaquimica.cl/post/test-math/</link>
-      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.metrologiaquimica.cl/post/test-math/</guid>
-      <description>
-&lt;script src=&#34;https://www.metrologiaquimica.cl/post/test-math/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;test&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;test&lt;/h1&gt;
-&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(x = y\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[x = y^2\]&lt;/span&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;hist(rnorm(1000))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/test-math/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://www.metrologiaquimica.cl/post/getting-started/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.metrologiaquimica.cl/post/getting-started/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
-&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/guide/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
-&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://www.metrologiaquimica.cl/post/2020-12-01-r-rmarkdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>https://www.metrologiaquimica.cl/post/2020-12-01-r-rmarkdown/</guid>
-      <description>
-&lt;script src=&#34;https://www.metrologiaquimica.cl/post/2020-12-01-r-rmarkdown/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://www.metrologiaquimica.cl/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Writing technical content in Academic</title>
-      <link>https://www.metrologiaquimica.cl/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.metrologiaquimica.cl/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;charts&#34;&gt;Charts&lt;/h3&gt;
-&lt;p&gt;Academic supports the popular &lt;a href=&#34;https://plot.ly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt; chart format.&lt;/p&gt;
-&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
-&lt;p&gt;Demo:&lt;/p&gt;
-
-
-&lt;div id=&#34;chart-632714589&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
-&lt;script&gt;
-  (function() {
-    let a = setInterval( function() {
-      if ( typeof window.Plotly === &#39;undefined&#39; ) {
-        return;
-      }
-      clearInterval( a );
-
-      Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-632714589&#39;, chart.data, chart.layout, {responsive: true});
-      });
-    }, 500 );
-  })();
-&lt;/script&gt;
-&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}&lt;em&gt;{n}) - \nabla F(\mathbf{x}&lt;/em&gt;{n-1}) \right |^2}$$&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp;amp; \text{if }k=1, \\\\
-1-p_{0}^{*} &amp;amp; \text{if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_{0}^{&lt;em&gt;}) = \begin{cases}p_{0}^{&lt;/em&gt;} &amp;amp; \text{if }k=1, \\
-1-p_{0}^{*} &amp;amp; \text{if }k=0.\end{cases}$$&lt;/p&gt;
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;callouts&#34;&gt;Callouts&lt;/h3&gt;
-&lt;p&gt;Academic supports a &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% callout note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
-&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; spoiler text=&amp;quot;Click to view the spoiler&amp;quot; &amp;gt;}}
-You found me!
-{{&amp;lt; /spoiler &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
-  &lt;p&gt;You found me!&lt;/p&gt;
-&lt;/details&gt;
-&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
-{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
-{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>https://www.metrologiaquimica.cl/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.metrologiaquimica.cl/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
