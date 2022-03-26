@@ -37,7 +37,7 @@ experience:
         * Gestión de Certificación ISO 9001
         
   - title: Estadístico de calidad y Químico de Desarrollo
-    company: Bureau Veritas Chile - Diivisión Minería
+    company: Bureau Veritas Chile - División Minería
     company_url: 'www.bureauveritas.cl'
     company_logo:
     location: Santiago
