@@ -5,12 +5,314 @@
     <link>https://www.metrologiaquimica.cl/post/</link>
       <atom:link href="https://www.metrologiaquimica.cl/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.metrologiaquimica.cl/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://www.metrologiaquimica.cl/post/</link>
     </image>
+    
+    <item>
+      <title>Como calcular la incertidumbre de una curva de calibracion</title>
+      <link>https://www.metrologiaquimica.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/</guid>
+      <description>
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://www.metrologiaquimica.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+
+&lt;p&gt;Ok, este es el segundo post pero advierto que aún está en rodaje… esto del
+&lt;em&gt;copywriting&lt;/em&gt; no es nada fácil.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¿Qué es y cómo estimar la incertidumbre de una curva de calibración?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La incertidumbre de calibración, en adelante &lt;span class=&#34;math inline&#34;&gt;\(u(x_{0})\)&lt;/span&gt;, es aquella que se
+propaga cuando obtenemos la concentración de un mensurando
+al &lt;em&gt;interpolar&lt;/em&gt; una señal instrumental (por ejemplo, absorbancia o
+área cromatográfica) en una curva de calibración. Básicamente,
+esta incertidumbre
+sólo da cuenta del error aleatorio del instrumento y no incopora la
+incertidumbre de los calibrantes, al menos cuando se utiliza el modelo de
+calibración clásico:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:lin&#34;&gt;\[\begin{equation}
+  y = \beta_{0} + \beta_{1} x + \epsilon
+    \tag{1}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;donde &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; es la respuesta instrumental, &lt;span class=&#34;math inline&#34;&gt;\(\beta_{0}\)&lt;/span&gt; es el intercepto,
+&lt;span class=&#34;math inline&#34;&gt;\(\beta_{1}\)&lt;/span&gt; es la pendiente y &lt;span class=&#34;math inline&#34;&gt;\(\epsilon\)&lt;/span&gt; es un error aleatorio Normal que tiene
+media &lt;span class=&#34;math inline&#34;&gt;\(\mu_{\epsilon} = 0\)&lt;/span&gt; y varianza &lt;span class=&#34;math inline&#34;&gt;\(\sigma_{y/x}^2\)&lt;/span&gt;. Note de la
+ecuación &lt;a href=&#34;#eq:lin&#34;&gt;(1)&lt;/a&gt; que lo único aleatorio es &lt;span class=&#34;math inline&#34;&gt;\(\epsilon\)&lt;/span&gt;, por lo tanto,
+el intercepto &lt;span class=&#34;math inline&#34;&gt;\(\beta_{0}\)&lt;/span&gt; y la pendiente &lt;span class=&#34;math inline&#34;&gt;\(\beta_{1}\)&lt;/span&gt; son &lt;em&gt;fijos&lt;/em&gt;.
+Lo que hacemos cuando aplicamos, por ejemplo, el método de los mínimos
+cuadrados es estimar estos parámetros y, en estadística, todas las
+estimaciones tienen un error asociado.&lt;/p&gt;
+&lt;p&gt;A partir de la ecuación &lt;a href=&#34;#eq:lin&#34;&gt;(1)&lt;/a&gt; obtenemos la concentración de una
+muestra problema &lt;span class=&#34;math inline&#34;&gt;\(x_{0}\)&lt;/span&gt; cuya señal instrumental es &lt;span class=&#34;math inline&#34;&gt;\(y_{0}\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:x0&#34;&gt;\[\begin{equation}
+  x_{0} = \frac{y_{0} - \beta_{0}}{\beta_{1}}
+    \tag{2}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Si aplicáramos la guía GUM para obtener la incertidumbre estándar de
+calibración &lt;span class=&#34;math inline&#34;&gt;\(u(x_{0})\)&lt;/span&gt; sería bastante latoso-engorroso, pues hay unas
+covarianzas no muy amistosas entre pendiente e intercepto. Afortunadamente
+&lt;span class=&#34;math inline&#34;&gt;\(u(x_{0})\)&lt;/span&gt; puede aproximarse muy bien a través de la ecuación &lt;a href=&#34;#eq:ux0&#34;&gt;(3)&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:ux0&#34;&gt;\[\begin{equation}
+  u(x_{0}) = \frac{\sigma_{y/x}}{\beta_{1}}
+  \sqrt{\frac{1}{n} + \frac{1}{m_{0}} + \frac{(x_{0} - \overline{x})^2}
+  {\sum_{i}^{n} (x_{i} - \overline{x})^2}}
+    \tag{3}
+\end{equation}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Vamos viendo dijo el ciego:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\sigma_{y/x}\)&lt;/span&gt; es la desviación estándar del error aleatorio &lt;span class=&#34;math inline&#34;&gt;\(\epsilon\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; es el número de calibrantes independientes (esto da para otro post)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(m_{0}\)&lt;/span&gt; es el número de replicado independientes de la muestra problema&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\overline{x}\)&lt;/span&gt; es el promedio de la concentraciones de los calibrantes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Esta incertidumbre se puede observar en la figura &lt;a href=&#34;#fig:banda&#34;&gt;1&lt;/a&gt;, la
+cual fue obtenida mediante simulación en lenguaje &lt;code&gt;R&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(123)
+x &amp;lt;- 1:10
+y &amp;lt;- 2 + 5*x + 10*rnorm(length(x), 0, 1)
+d &amp;lt;- data.frame(x, y)
+
+library(ggplot2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;ggplot2&amp;#39; was built under R version 4.0.5&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(d, aes(x = x, y = y)) +
+  geom_smooth(method = &amp;#39;lm&amp;#39;) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:banda&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/index_files/figure-html/banda-1.png&#34; alt=&#34;Incertidumbre de calibración&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Incertidumbre de calibración
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;¿Dónde se obtiene la menor incertidumbre de calibración? … ¡Correcto!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;En el centro de la curva se minimiza la incertidumbre de calibración&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Si obervamos la ecuación &lt;a href=&#34;#eq:ux0&#34;&gt;(3)&lt;/a&gt; podemos minimizar &lt;span class=&#34;math inline&#34;&gt;\(u(x_{0})\)&lt;/span&gt;:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Aumentando &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; el número de calibrantes.&lt;/li&gt;
+&lt;li&gt;Aumentando &lt;span class=&#34;math inline&#34;&gt;\(m_{0}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Diseñando la curva de calibración de modo que &lt;span class=&#34;math inline&#34;&gt;\(x_{0} = \bar{x}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Aunque no tan “evidente”, maximizando &lt;span class=&#34;math inline&#34;&gt;\(\sum_{i}^{n} (x_{i} - \overline{x})^2\)&lt;/span&gt;,
+es decir, utilizando todo el rango lineal (Nota mental: otro post)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;aplicación-a-un-caso-real&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Aplicación a un caso “real”&lt;/h1&gt;
+&lt;p&gt;La tabla &lt;a href=&#34;#tab:tabla&#34;&gt;1&lt;/a&gt; muestra los datos de una curva de calibración para la determinación de cobre en mineral por AAS, la figura &lt;a href=&#34;#fig:cal&#34;&gt;2&lt;/a&gt; describe
+el gráfico de calibración:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Alguien capo en HTML/CSS que me ayude a poner tabla enfrentada con figura en
+2 columnas por favor… y que Dios se lo pague.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;table class=&#34;table&#34; style=&#34;width: auto !important; &#34;&gt;
+&lt;caption&gt;
+&lt;span id=&#34;tab:tabla&#34;&gt;Table 1: &lt;/span&gt;Curva de Calibración Cu
+&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Cu [ppm]
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+UA
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.0344
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.0777
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.1356
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.1607
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.2013
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.2572
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.2846
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.3073
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+9
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.3531
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+10
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+0.3955
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:cal&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.metrologiaquimica.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/index_files/figure-html/cal-1.png&#34; alt=&#34;Curva de calibración&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Curva de calibración
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Ok, hay varias formas de implementar los cálculos de incertidumbre de
+calibración de la ecuación &lt;a href=&#34;#eq:ux0&#34;&gt;(3)&lt;/a&gt;. Podríamos utilizar Excel para
+obtener cada uno de los términos, pero eso lo ilustraremos en otro post.
+En esta oportunidad utilizaremos el software &lt;code&gt;R&lt;/code&gt;. Este software posee varias
+librerías o packages especializados en el cálculo de incertidumbre en
+química analítica, por ejemplo: &lt;code&gt;metRology&lt;/code&gt; y &lt;code&gt;chemCal&lt;/code&gt;. En este post
+utilizaremos el segundo, pues entrega en forma directa el cálculo de
+la incertidumbre de calibración:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Si no tienes instalado el package &lt;code&gt;chemCal&lt;/code&gt; utiliza el comando
+&lt;code&gt;install.packages(&amp;lsquo;chemCal&amp;rsquo;)&lt;/code&gt;. Una vez instalado procede con el siguiente
+código.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Creación del modelo de calibración lineal, al que llamaremos fit.lin 
+# (En otro post se profundizará sobre otros modelos de calibración en R)
+
+fit.lin &amp;lt;- lm(y ~ x, data = d)
+
+# Simular un valor de respuesta de la muestra problema, es decir, y0.
+# Sólo por conveniencia simularemos que y0 = 0.200 UA, es decir, más o menos
+# en el centro de la curva:
+
+y0 &amp;lt;- 0.200
+
+# Cargar la librería chemCal con el comando &amp;#39;library&amp;#39;:
+
+library(chemCal)
+
+# Calcular la concentración de la muestra problema, x0, a partir de su señal
+# instrumental y0, junto con la incertidumbre estándar de calibración u(x0) e
+# incertidumbre expandida U(x0) con un 95% de confianza:
+
+inverse.predict(fit.lin, newdata = y0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$Prediction
+[1] 4.970492
+
+$`Standard Error`
+[1] 0.2618792
+
+$Confidence
+[1] 0.6038946
+
+$`Confidence Limits`
+[1] 4.366598 5.574387&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Bien, interpretemos la salida:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$Prediction&lt;/code&gt; es la concentración de la muestra problema en [ppm]&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$Standard Error&lt;/code&gt; es la incertidumbre estándar de calibración, es
+decir, la que se obtiene de la ecuación &lt;a href=&#34;#eq:ux0&#34;&gt;(3)&lt;/a&gt; expresada,
+obviamente, en las mismas unidades que los calibrantes [ppm].&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$Confidence&lt;/code&gt; es la incertidumbre expandida de calibración &lt;span class=&#34;math inline&#34;&gt;\(U(x0)\)&lt;/span&gt;, es decir,
+&lt;span class=&#34;math inline&#34;&gt;\(U(x0) = k\cdot u(x0)\)&lt;/span&gt; donde &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt; es el factor de cobertura con el cual se obtiene
+un intervalo de incertidumbre con cierta confianza (habitualmente 95%).
+Más de esto en otro post.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$Confidence Limits&lt;/code&gt; es simplemente &lt;span class=&#34;math inline&#34;&gt;\(x0 \pm U(x0)\)&lt;/span&gt;, es decir,
+&lt;span class=&#34;math inline&#34;&gt;\(5 \pm 0.6\)&lt;/span&gt; ppm
+(ojo con las cifras significativas… ahí va otro post).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Algunas consideraciones importantes:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Esta incertidumbre de calibración &lt;span class=&#34;math inline&#34;&gt;\(u(x0)\)&lt;/span&gt; NO incorpora la
+incertidumbre de los calibrantes, sólo es un reflejo del error aleatorio
+instrumental. Punto. Es decir, asume que los calibrantes no tienen
+incertidumbre… lo cual todos los químicos sabemos que es ¡Farso, farso!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si Ud. requiere incorporar también la incertidumbre de los calibrantes, debe
+utilizar otro modelo lineal de calibración denominado: modelo lineal con error
+en ambos ejes (otro post).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ya que esta incertidumbre sólo refleja el componente aleatorio de la
+calibración, no están incorporados los errores sistemáticos de la preparación
+de estándares: error en el aforo, no considerar la pureza del
+reactivo, etc. (Nota mental: otro post… ¿cuántos van?).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si, además, el método analítico incluye pesada de la muestra, digestión o
+extracción, aforo final, factor de dilución, etc. Ud.debe, mediante los
+mandamientos de la guía GUM, combinar todas estas fuentes de incertidumbre
+con la de calibración &lt;span class=&#34;math inline&#34;&gt;\(u(x0)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En el fondo, como se asume que los calibrantes no tienen incertidumbre,
+&lt;span class=&#34;math inline&#34;&gt;\(u(x0)\)&lt;/span&gt; reflejaría el comportamiento aleatorio del instrumento cuando
+se lee la curva “muchas” veces, siempre con los mismos calibrantes. En cada
+oportunidad, se obtendría una pendiente e intercepto distintos (debido a al
+error aleatorio &lt;span class=&#34;math inline&#34;&gt;\(\epsilon\)&lt;/span&gt;), por lo tanto, también una concentración &lt;span class=&#34;math inline&#34;&gt;\(x0\)&lt;/span&gt;
+distinta cada vez.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Si está interesad@ en estimar la incertidumbre de una calibración no lineal, lo
+discutimos paso a paso en el &lt;a href=&#34;https://www.analytical.cl/post/incertidumbre-de-una-calibracion-no-lineal/&#34;&gt;siguiente link.&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Bueno espero que este post, en rodaje áun, haya sido de su agrado. Como siempre,
+siéntase libre de criticarlo. Nos vemos.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>test math</title>
@@ -167,7 +469,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-921384756&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-185946237&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -177,7 +479,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-921384756&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-185946237&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

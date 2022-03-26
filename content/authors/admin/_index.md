@@ -3,7 +3,7 @@ bio: Metrólogo Químico con experiencia en la aplicación de métodos estadíst
 education:
   courses:
   - course: Magíster en Estadística
-    institution: Pintificia Universidad Católica de Chile
+    institution: Pontificia Universidad Católica de Chile
     year: 2006
   - course: Químico
     institution: Universidad de Chile
