@@ -1,0 +1,26 @@
+---
+title: Testing el nuevo Wowchemy
+author: ''
+date: '2022-03-25'
+slug: hi-hugo
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-03-25T21:47:40-03:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# Método de Monte Carlo
+
+```{r}
+
+hist(rnorm(1000), col = 'blue')
+```
+
