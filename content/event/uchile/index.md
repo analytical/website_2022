@@ -1,43 +1,47 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac
-  convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac
-  faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien
-  eu, pulvinar tempor diam.
+abstract: En este curso aprenderás herramientas estadísticas modernas y su 
+  aplicación en Química Analítica. Usaremos el potente lenguaje de programación   `R` y librerías especializadas en Metrología Química y Validación de 
+  Métodos Analíticos. Clases online y streaming.
 address:
-  city: Stanford
-  country: United States
-  postcode: "94305"
-  region: CA
-  street: 450 Serra Mall
+  city: Santiago
+  country: Chile
+  postcode: ""
+  region: 
+  street: Sergio Livingstone 1007 Independencia
 all_day: false
 authors: []
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
-event: Wowchemy Conference
-event_url: https://example.org
-featured: false
+date: "2022-08-15T13:00:00Z"
+date_end: "2022-09-12T15:00:00Z"
+event: Información y postulaciones
+event_url: https://www.postgradoquimica.cl/curso-posgrado-herramientas-diseno-interpretacion-estadistica-mediciones-version-semipresencial-2/
+featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+  caption: '[¿Cómo evaluar la linealidad?](featured.png)'
+  focal_point: Left
 links:
-- icon: twitter
+- icon: linkedin
   icon_pack: fab
-  name: Follow
+  name: Seguir
   url: https://twitter.com/georgecushen
-location: Wowchemy HQ
+location: Facultad de Ciencias Químicas y Farmacéuticas -- Universidad de Chile
 projects:
 - internal-project
 publishDate: "2017-01-01T00:00:00Z"
 slides: example
-summary: An example talk using Wowchemy's Markdown slides feature.
+summary: Métodos Estadísticos modernos aplicados en Química Analítica
 tags: []
-title: Example Talk
+title: Curso Herramientas de Diseño e Interpretación Estadística de las Mediciones
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
+
+
+
+
+<!---
 {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /callout %}}
@@ -49,3 +53,5 @@ Slides can be added in a few ways:
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
 
 Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
+-->
+

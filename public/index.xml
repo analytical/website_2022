@@ -5,7 +5,7 @@
     <link>https://www.metrologiaquimica.cl/</link>
       <atom:link href="https://www.metrologiaquimica.cl/index.xml" rel="self" type="application/rss+xml" />
     <description>Analytical</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Mon, 15 Aug 2022 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.metrologiaquimica.cl/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Analytical</title>
@@ -108,22 +108,26 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://www.metrologiaquimica.cl/talk/example-talk/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://www.metrologiaquimica.cl/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+      <title>Curso Herramientas de Diseño e Interpretación Estadística de las Mediciones</title>
+      <link>https://www.metrologiaquimica.cl/talk/curso-herramientas-de-diseno-e-interpretacion-estadistica-de-las-mediciones/</link>
+      <pubDate>Mon, 15 Aug 2022 13:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/talk/curso-herramientas-de-diseno-e-interpretacion-estadistica-de-las-mediciones/</guid>
+      <description>&lt;!---
+&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
+--&gt;
 </description>
     </item>
     
@@ -255,6 +259,812 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
+      <title>Incertidumbre de una calibración no lineal con aplicación en química analítica</title>
+      <link>https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/</guid>
+      <description>
+&lt;script src=&#34;https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;En un &lt;a href=&#34;https://www.analytical.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/&#34;&gt;post anterior&lt;/a&gt;
+revisamos cómo estimar la incertidumbre de la concentración
+de una muestra problema, cuando ésta ha sido obtenida interpolando la señal
+instrumental en una curva de calibración lineal.&lt;/p&gt;
+&lt;p&gt;La expresión es relativamente simple y vimos también cómo podemos implementarla
+en el lenguaje de programación &lt;code&gt;R&lt;/code&gt; a través del package &lt;code&gt;chemCal&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Sin embargo, la vida no es tan sencilla. Recoradará estimad@ lector@ que está
+bastante documentada la presencia de desviaciones de la linealidad
+a altas concentraciones, fenómeno muy conocido en los métodos
+espectrofotométricos (Ley de Lambert-Beer). La severidad de estas desviaciones
+varía en función del detector, el analito y otros factores físico-químicos
+del sistema de medición.&lt;/p&gt;
+&lt;p&gt;Cuando existen estas desviaciones y deseamos llevar a cabo un
+&lt;a href=&#34;https://www.analytical.cl/post/como-demuestro-que-mi-curva-de-calibracion-es-lineal/&#34;&gt;test de linealidad&lt;/a&gt;,
+es muy probable que el test rechace el modelo lineal, por lo tanto, no podemos
+estimar la incertidumbre de calibración asumiendo este modelo. Si bien es cierto
+podemos reducir el rango lineal y diluir la muestra problema que está fuera
+del rango, la operación de dilución introduce nuevos errores (incluso errores
+humanos de transcripción bastante frecuentes).&lt;/p&gt;
+&lt;p&gt;Una alternativa válida sería utilizar un modelo de calibración que capture esta
+no linealidad evitando así la dilución de la muestra,
+por lo tanto el problema se reduce a:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¿Cómo estimar la incertidumbre de una muestra problema que ha sido
+obtenida a través de una curva de calibración no lineal?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sin embargo, de esta pregunta se desprende al mismo tiempo otra interrogante:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¿Cuál modelo de calibración no lineal utilizaré?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Existen varios modelos de calibración no lineal:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Polinomios&lt;/li&gt;
+&lt;li&gt;New Rational (en realidad se llaman &lt;em&gt;aproximaciones de Padé&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Splines&lt;/li&gt;
+&lt;li&gt;Loess&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Por lo tanto, no existe una respuesta completamente correcta desde
+la prespectiva estadística, pues un modelo cuadrático sería tan válido como
+un polinomio cúbico. Desde el punto de vista químico podríamos preguntarnos
+¿qué sentido químico tiene una curva de calibración polinómica de grado 5?
+¿Son interpretables los parámetros del modelo? En un modelo lineal como el
+de Lambert-Beer: &lt;span class=&#34;math inline&#34;&gt;\(y = \beta_{0} + \beta_{1}x\)&lt;/span&gt; la pendiente de la curva de
+calibración tiene una interpretación química: es el producto entre coeficiente
+de extinción molar y la longitud de la celda:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34; id=&#34;eq:lambert&#34;&gt;\[
+\underbrace{A}_\text{y} = \underbrace{\epsilon \cdot b}_\text{$\beta_{1}$} \cdot
+\underbrace{C}_\text{x}
+\tag{1}
+\]&lt;/span&gt;
+Pero recuerde este sabio consejo de un monstruo de la estadística aplicada:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“All models are wrong, but some are useful”&lt;/em&gt;
+– &lt;cite&gt;George Box&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Por lo tanto, tenemos que tomar una decisión. Y obviamente, como soy el autor de
+este humilde post, ya la tomé por Ud. En este artículo estimaremos la
+incertidumbre de calibración de un modelo polinómico de grado 2, también
+conocido como modelo cuadrático.&lt;/p&gt;
+&lt;p&gt;Nota: Desde el punto de vista &lt;strong&gt;estrictamente estadístico&lt;/strong&gt; los modelos
+polinómicos, como la calibración cuadrática, son también modelos lineales ya que
+los coeficientes del modelo son lineales&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[y = \beta_{0} + \beta_{1}x + \beta_{2}x^2 + \epsilon\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;En cambio, en un modelo del tipo exponencial:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[y = \beta_{0}\cdot e^{\beta_{1}x}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;El coeficiente &lt;span class=&#34;math inline&#34;&gt;\(\beta_{1}\)&lt;/span&gt; no es una función lineal.&lt;/p&gt;
+&lt;div id=&#34;métodos-de-estimación-de-incertidumbre-de-calibración&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Métodos de estimación de incertidumbre de calibración&lt;/h1&gt;
+&lt;p&gt;En este post ejemplificaremos y compararemos tres métodos de estimación
+de incertidumbre de calibración:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Norma ISO 8466-2:2001 &lt;em&gt;Water quality – Calibration and evaluation of
+analytical methods and estimation of performance characteristics – Part 2:
+Calibration strategy for non-linear second-order calibration functions.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Método GUM&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Método de Monte Carlo (Suplemento 1 ISO-GUM)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Implementaremos todos los métodos en el lenguaje de programación &lt;code&gt;R&lt;/code&gt;, explicando
+paso a paso el código fuente con el fin de que Ud. obtenga los mismos
+resultados, es decir, un &lt;strong&gt;análisis reproducible&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;datos-de-calibración&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Datos de calibración&lt;/h1&gt;
+&lt;p&gt;Para ejemplificar los cálculos, utilizaremos los datos de calibración indicados
+en el ejemplo de la sección 7 de la norma ISO 8466-2. El siguiente código &lt;code&gt;R&lt;/code&gt;
+nos permite ingresar los datos manualmente:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ingresamos los datos de calibración de la sección 7 de la norma ISO 8466-2
+# x: concentración en mg/L
+# y: Absorbancia [UA]
+
+x &amp;lt;- c(12, 18, 24, 30, 36, 42, 48, 54, 60, 66)
+y &amp;lt;- c(0.083, 0.123, 0.164, 0.203, 0.240, 0.273, 0.303, 0.334, 0.364, 0.393)
+
+d &amp;lt;- data.frame(x, y) # creamos un data frame con las variables x e y (esto es
+                      # análogo a una matriz de datos en Excel con dos columnas)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A continuación graficamos la curva de calibración con la librería &lt;code&gt;ggplot2&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2) # cargamos la librería ggplot2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;ggplot2&amp;#39; was built under R version 4.0.5&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;theme_set(theme_minimal()) # esto es sólo por una cuestión estética del gráfico
+
+ggplot(d, aes(x = x, y = y)) +
+  geom_point(color = &amp;#39;red&amp;#39;) +
+  xlab(&amp;#39;Concentración [mg/L]&amp;#39;) +
+  ylab(&amp;#39;Absorbancia [UA]&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Mmm… no sé Ud. pero yo veo una leve curvatura.
+Como lo vimos en un &lt;a href=&#34;https://www.analytical.cl/post/como-demuestro-que-mi-curva-de-calibracion-es-lineal/&#34;&gt;post anterior&lt;/a&gt;
+llevaremos a cabo un análisis estadístico básico para evaluar si el modelo de
+calibración lineal es adecuado, o si nos inclinamos por la hipótesis de no
+linealidad.&lt;/p&gt;
+&lt;p&gt;Como no tenemos replicados de cada punto de calibración, haremos un Test de
+Linealidad de Mandel. Lo primero, es ajustar un modelo lineal a los datos
+&lt;span class=&#34;math inline&#34;&gt;\(y = a + bx\)&lt;/span&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fit.lineal &amp;lt;- lm(y ~ x, data = d) # ajustamos un modelo lineal y lo guardamos 
+                                  # con el nombre fit.lineal
+
+summary(fit.lineal) # para ver el análisis estadístico del ajuste&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = y ~ x, data = d)
+## 
+## Residuals:
+##       Min        1Q    Median        3Q       Max 
+## -0.010636 -0.004720  0.001000  0.005727  0.009151 
+## 
+## Coefficients:
+##              Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept) 0.0250303  0.0058314   4.292  0.00264 ** 
+## x           0.0057172  0.0001368  41.803 1.18e-10 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 0.007453 on 8 degrees of freedom
+## Multiple R-squared:  0.9954, Adjusted R-squared:  0.9949 
+## F-statistic:  1747 on 1 and 8 DF,  p-value: 1.181e-10&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Esta tabla nos dice que el intercepto del modelo es
+&lt;span class=&#34;math inline&#34;&gt;\(a = 0.0250303\)&lt;/span&gt; y la pendiente &lt;span class=&#34;math inline&#34;&gt;\(b = 0.0057172\)&lt;/span&gt;.
+Note el alto coeficiente de determinación
+&lt;span class=&#34;math inline&#34;&gt;\(r^{2} = 0.9954\)&lt;/span&gt; lo cual indica que es un
+buen modelo. El coeficiente de correlación es
+&lt;span class=&#34;math inline&#34;&gt;\(r = 0.998\)&lt;/span&gt; que si bien es un dato a
+considerar, no es una prueba formal de linealidad.&lt;/p&gt;
+&lt;p&gt;La siguiente figura muestra el ajuste lineal sobre los datos de calibración:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggpmisc) # para escribir ecuaciones dentro del gráfico&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;ggpmisc&amp;#39; was built under R version 4.0.4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;ggpmisc&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:ggplot2&amp;#39;:
+## 
+##     annotate&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(d, aes(x = x, y = y)) +
+  geom_point(color = &amp;#39;red&amp;#39;) +
+  geom_smooth(method = &amp;#39;lm&amp;#39;, se = F, 
+              size = 0.5) + # dibuja la curva de calibración lineal
+  xlab(&amp;#39;Concentración [mg/L]&amp;#39;) +
+  ylab(&amp;#39;Absorbancia [UA]&amp;#39;) +
+  stat_poly_eq(aes(label =  paste(stat(eq.label), stat(rr.label), 
+                                  sep = &amp;quot;*\&amp;quot;, \&amp;quot;*&amp;quot;)), 
+               formula = y ~ x, 
+               parse = TRUE, 
+               rr.digits = 4)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/index_files/figure-html/plot.lineal-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Se observa que el ajuste lineal no es un buen modelo, pues no captura la
+curvatura de los datos a pesar del alto coeficiente de correlación.
+Esto se oberva más claramente si obervamos el gráfico
+de residuos:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(fit.lineal, which = 1, add.smooth = F, pch = 19, col = &amp;#39;red&amp;#39;, 
+     main = &amp;#39;Gráfico de residuos modelo lineal&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/index_files/figure-html/fit.lin.res-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;La evidencia en contra del modelo lineal es abrumadora, el gráfico muestra
+claramente un patrón en los residuos que indica que el modelo lineal
+no es adecuado. Sin embargo, a pesar de la evidencia, haremos el Test de Mandel
+para “comprobar” esta hipótesis. Para aplicar el Test de Mandel debemos ahora
+ajustar el modelo cuadrático y compararlo con el modelo lineal.
+Para ser consistentes en la notación de la
+norma ISO 8466-2, definiremos el modelo de calibración cuadrático como:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ 
+y = a + bx + cx^2
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fit.nolineal &amp;lt;- lm(y ~ x + I(x^2), data = d) # ajuste cuadrático y los guardamos 
+                                          # con el nombre fit.nolineal
+summary(fit.nolineal)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = y ~ x + I(x^2), data = d)
+## 
+## Residuals:
+##        Min         1Q     Median         3Q        Max 
+## -1.864e-03 -1.114e-03  6.818e-05  9.432e-04  1.939e-03 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept) -5.621e-03  2.475e-03  -2.271   0.0574 .  
+## x            7.670e-03  1.420e-04  54.005 1.96e-10 ***
+## I(x^2)      -2.504e-05  1.787e-06 -14.010 2.23e-06 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 0.001479 on 7 degrees of freedom
+## Multiple R-squared:  0.9998, Adjusted R-squared:  0.9998 
+## F-statistic: 2.23e+04 on 2 and 7 DF,  p-value: 4.84e-14&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se obtiene una tabla similar que la del modelo lineal, con la adición del
+coeficiente que acompaña al
+&lt;span class=&#34;math inline&#34;&gt;\(x^2\)&lt;/span&gt;: &lt;code&gt;I(x^2)&lt;/code&gt; &lt;span class=&#34;math inline&#34;&gt;\(= -2.504\times 10^{-5}\)&lt;/span&gt;. Note
+que el coeficiente de determinación del modelo cuadrático es mayor que el
+del modelo lineal. Esto siempre se cumplirá, lo que hace el Test de Mandel es
+discernir si esta “mejora” en el modelo es “significativa”.&lt;/p&gt;
+&lt;p&gt;La siguiente figura muestra el ajuste no lineal, el cual captura mucho mejor
+la curvatura de los datos:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(d, aes(x = x, y = y)) +
+  geom_point(color = &amp;#39;red&amp;#39;) +
+  geom_smooth(method = &amp;#39;lm&amp;#39;,         # dibuja la curva de calibración no lineal
+              se = F, 
+              formula = y ~ x + I(x^2), size = 0.5) + 
+  xlab(&amp;#39;Concentración [mg/L]&amp;#39;) +
+  ylab(&amp;#39;Absorbancia [UA]&amp;#39;) +
+  stat_poly_eq(aes(label =  paste(stat(eq.label), stat(rr.label), 
+                                  sep = &amp;quot;*\&amp;quot;, \&amp;quot;*&amp;quot;)),
+               formula = y ~ x + I(x^2), 
+               parse = TRUE, 
+               rr.digits = 4)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/index_files/figure-html/plot.nolineal-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ok, aplicamos
+el Test de Mandel con el comando &lt;code&gt;anova&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;anova(fit.lineal, fit.nolineal)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Analysis of Variance Table
+## 
+## Model 1: y ~ x
+## Model 2: y ~ x + I(x^2)
+##   Res.Df        RSS Df  Sum of Sq      F    Pr(&amp;gt;F)    
+## 1      8 0.00044442                                   
+## 2      7 0.00001530  1 0.00042912 196.29 2.235e-06 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;El p-value del test de Mandel es &lt;span class=&#34;math inline&#34;&gt;\(2.23\times 10^{-6}\)&lt;/span&gt;, el cual de acuerdo a
+la interpretación tradicional, indica que el modelo lineal no es adecuado para
+los datos de calibración.&lt;/p&gt;
+&lt;p&gt;Procedamos, entonces, a estimar la incertidumbre de la concentración &lt;span class=&#34;math inline&#34;&gt;\(\hat{x}\)&lt;/span&gt;
+de una muestra problema, cuyo valor fue obtenido interpolando la señal
+instrumental en el modelo de calibración no lineal.&lt;/p&gt;
+&lt;div id=&#34;estimación-de-incertidumbre-de-acuerdo-a-iso-8466-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Estimación de incertidumbre de acuerdo a ISO 8466-2&lt;/h2&gt;
+&lt;p&gt;Desde el punto de vista metrológico, la aproximación que indica esta norma es
+similar a lo que dicta la guía ISO GUM clásica, es decir,
+estima la incertidumbre a partir de un modelo de medición &lt;span class=&#34;math inline&#34;&gt;\(y = f(x)\)&lt;/span&gt;.
+La “gracia” de esta norma es que nos
+ahorra tinta, pues la ecuación de incertidumbre ya está “algebraicamente
+manipulada”. No entraremos en los detalles de las primeras secciones de la
+norma los cuales estudian el comportamiento de la curvatura, es decir, si será
+posible encontrar un máximo o un mínimo, lo cual es clave en la utilidad del
+modelo cuadrático como función de calibración. Esto es
+importante porque recuerde que una función parabólica tiene dos soluciones, si
+existiera un máximo o un mínimo en el rango de trabajo, el modelo cuadrático no
+puede ser utilizado como función de calibración.&lt;/p&gt;
+&lt;p&gt;La siguiente ecuación calcula la &lt;strong&gt;incertidumbre expandida&lt;/strong&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(I(\hat{x}) = U_{\hat{x}}\)&lt;/span&gt; de la concentración de la muestra problema &lt;span class=&#34;math inline&#34;&gt;\(\hat{x}\)&lt;/span&gt;,
+interpolada en la curva de calibración no lineal &lt;span class=&#34;math inline&#34;&gt;\(y = a + bx + cx^2\)&lt;/span&gt;.
+Corresponde a la ecuación (27) de la norma:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+I(\hat{x}) = \frac{s_{y} \cdot t_{n - 3,\, 95\%}}{b + 2c\hat{x}} \cdot
+            \sqrt{\frac{1}{N} + \frac{1}{\hat{N}} + 
+            \frac{(\hat{x} - \overline{x})^2 \, Q_{x^4} + 
+            \left(\hat{x}^2 - \frac{\sum x_{i}^{2}}{N} \right)^2 Q_{xx} -
+            2(\hat{x} - \overline{x}) 
+            \left(\hat{x}^2 - \frac{\sum x_{i}^{2}}{N} \right) Q_{x^3}}
+            {Q_{x^4} Q_{xx} - \left( Q_{x^3} \right)^2}}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;donde:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+s_{y} = \sqrt{\frac{\sum (y_{i} -\hat{y})^2}{N - 3}}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(y_{i}\)&lt;/span&gt; es la respuesta experimental observada del estándar &lt;span class=&#34;math inline&#34;&gt;\(i\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(\hat{y}\)&lt;/span&gt; es la
+respuesta instrumental que predice el modelo para el mismo estándar &lt;span class=&#34;math inline&#34;&gt;\(i\)&lt;/span&gt;, por lo
+tanto &lt;span class=&#34;math inline&#34;&gt;\(e_{i} = y_{i} - \hat{y}\)&lt;/span&gt; es el residuo. &lt;span class=&#34;math inline&#34;&gt;\(N\)&lt;/span&gt; es el número de calibrantes.
+¿Por qué el denominador es &lt;span class=&#34;math inline&#34;&gt;\(N - 3\)&lt;/span&gt; y no &lt;span class=&#34;math inline&#34;&gt;\(N -2\)&lt;/span&gt; como en la calibración lineal?
+Porque el modelo cuadrático posee tres parámetros &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(c\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(t_{N - 3,\, 95\%}\)&lt;/span&gt; es el valor del T de Student con &lt;span class=&#34;math inline&#34;&gt;\(N - 3\)&lt;/span&gt; grados de
+libertad y un 95% de confianza.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{N}\)&lt;/span&gt; es el número de replicados
+independientes de la muestra problema. Como discutimos en
+&lt;a href=&#34;https://www.analytical.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/&#34;&gt;otro post&lt;/a&gt;,
+esto no corresponde a inyectar &lt;span class=&#34;math inline&#34;&gt;\(\hat{N}\)&lt;/span&gt; veces la misma muestra en el
+instrumento.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{x}\)&lt;/span&gt; es la concentración de la muestra problema interpolada en la curva
+de calibración no lineal, la cual se obtiene resolviendo la ecuación
+cuadrática. Como Ud. recordará de sus años mozos esto siginifica que
+la concentración interpolada se obtiene a partir de:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\hat{x} = \frac{-b \pm \sqrt{b^2 - 4(a - y_{0})c}}{2c}\]&lt;/span&gt;
+donde &lt;span class=&#34;math inline&#34;&gt;\(y_{0}\)&lt;/span&gt; es la señal instrumental de la muestra problema.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(x_{i}\)&lt;/span&gt; es la concentración del estándar &lt;span class=&#34;math inline&#34;&gt;\(i\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\overline{x} = \sum_{i = 1}^{N} x_{i}\)&lt;/span&gt; es el promedio de las concentraciones
+de los calibrantes.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finalmente:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+\begin{aligned}
+Q_{xx}  &amp;amp;= \sum x_{i}^2 - \frac{\left(\sum x_{i}\right)^2}{N} \\
+Q_{x^3} &amp;amp;= \sum x_{i}^3 - \left(\sum x_{i} \times \frac{\sum x_{i}^2}{N}\right) \\
+Q_{x^4} &amp;amp;= \sum x_{i}^4 - \frac{\left(\sum x_{i}^2\right)^2}{N}
+\end{aligned}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ok, nada del otro mundo. Es bien fea, pero sólo son operaciones de aritmética
+básica. Algunas observaciones:&lt;/p&gt;
+&lt;p&gt;Como Ud. recordará en el caso de la calibración lineal, a partir de esta
+ecuación podemos inferir que si deseamos minimizar la incertidumbre de
+calibración no lineal podemos :&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Aumentar el número de calibrantes &lt;span class=&#34;math inline&#34;&gt;\(N\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Aumentar el número de replicados independientes de la muestra problema &lt;span class=&#34;math inline&#34;&gt;\(\hat{N}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Aumentar la sensibilidad del método, que en el caso de la calibración
+cuadrática está dada por &lt;span class=&#34;math inline&#34;&gt;\(b + 2c\hat{x}\)&lt;/span&gt;, es decir, depende de la concentración
+de la muestra problema &lt;span class=&#34;math inline&#34;&gt;\(\hat{x}\)&lt;/span&gt;. En cambio, en la calibración lineal la
+sensibilidad era constante en todo el rango de concentración estudiado y
+correspondía a la pediente de la curva.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En el caso de la calibración lineal, la incertidumbre de calibración se minimiza
+en el centroide de la curva, en el caso del modelo cuadrático esto no siempre
+es así. Observe en la siguiente figura las bandas de confianza de ambos tipos de
+calibración:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;patchwork&amp;#39; was built under R version 4.0.4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/index_files/figure-html/patch-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Advierta que ambos modelos comparten la propiedad que la mayor incertidumbre se
+encuentra en los extremos. Sin embargo, en la calibración cuadrática, para este
+conjunto de datos, la menor incertidumbre no está en el centro de la curva.&lt;/p&gt;
+&lt;p&gt;Ok, a continuación implementaremos la ecuación de incertidumbre en &lt;code&gt;R&lt;/code&gt; con los
+datos del ejemplo de la sección 7 de la norma. La señal instrumental de la
+muestra problema es &lt;span class=&#34;math inline&#34;&gt;\(y_{0} = 0.084\)&lt;/span&gt; UA:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;N &amp;lt;- length(x) # Número de calibrantes
+N.hat &amp;lt;- 1     # Número de replicados de la muestra problema
+Qxx &amp;lt;- sum(x^2) - sum(x)^2/N
+Qx3 &amp;lt;- sum(x^3) -(sum(x) * sum(x^2)/N)
+Qx4 &amp;lt;- sum(x^4) - sum(x^2)^2/N
+
+a &amp;lt;- fit.nolineal$coefficients[1]
+b &amp;lt;- fit.nolineal$coefficients[2]
+c &amp;lt;- fit.nolineal$coefficients[3]
+
+s.y &amp;lt;- summary(fit.nolineal)$sigma # Es lo que R denomina Residual standard error
+t &amp;lt;- qt(0.975, N - 3) # El T de Student (¡Ya no se usan tablas!)
+
+y0 &amp;lt;- 0.084 # Es la señal instrumental de la muestra problema
+x.hat &amp;lt;- (-b + sqrt(b^2 - 4*(a - y0)*c))/(2*c) # Concentración de la muestra
+
+Ix &amp;lt;- (s.y * t)/(b + 2*c*x.hat) * sqrt(
+  1/N + 1/N.hat + ((x.hat - mean(x))^2*Qx4 + (x.hat^2 - sum(x^2)/N)^2 * Qxx -  
+  2*(x.hat - mean(x))*(x.hat^2 - sum(x^2)/N)*Qx3)/
+  (Qx4 * Qxx - Qx3^2)
+)
+
+Ix &amp;lt;- unname(Ix) # Simplemente es para dejar sólo el número&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La concentración de la muestra es &lt;span class=&#34;math inline&#34;&gt;\(\hat{x} = 12.17\)&lt;/span&gt; mg/L.
+Al aplicar esta metodología obtenemos una incertidumbre expandida de
+&lt;span class=&#34;math inline&#34;&gt;\(I(\hat{x}) = 0.63\)&lt;/span&gt; mg/L, es decir, exactamente la misma que la que
+indica la norma ISO. Note que si Ud. quisiera combinar esta incertidumbre de
+calibración con algún otro factor (p.ej: masa de la muestra, volumen de aforo,
+etc.) debe primero tansformarla en incertidumbre estándar, dividiéndola por el
+factor de cobertura &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;, que en este caso corresponde al t Student con &lt;span class=&#34;math inline&#34;&gt;\(N - 3\)&lt;/span&gt;
+grados de libertad al 95% de confianza (k = 2.36):&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+u_{\hat{x}} = \frac{U_{\hat{x}}}{k} = 0.27\, \, \text{mg/L}
+\]&lt;/span&gt;
+Por lo tanto, si tuviéramos que informar el resultado de la concentración
+de la muestra interpolada en la curva de calibración no lineal informaríamos
+&lt;span class=&#34;math inline&#34;&gt;\(12.17 \pm 0.63\)&lt;/span&gt; mg/L [&lt;em&gt;nota mental: mmmm… esto de
+las cifras significativas da para otro post, pero dejémoslo así por ahora.
+No olvidar borrar este comentario.&lt;/em&gt;]&lt;/p&gt;
+&lt;p&gt;¿Cómo varía esta incertidumbre de calibración no lineal con la concentración de
+la muestra? La siguiente figura muestra esta variación:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x &amp;lt;- seq(12, 66, by = 6) # Rango de concentración
+N &amp;lt;- length(x)
+N.hat &amp;lt;- 1
+mu.x &amp;lt;- mean(x) # promedio de las concentraciones de los calibrantes
+sq.x &amp;lt;- sum(x^2) # suma de las concentraciones de los calibrantes al cuadrado
+Qxx &amp;lt;- sum(x^2) - sum(x)^2/N
+Qx3 &amp;lt;- sum(x^3) -(sum(x) * sum(x^2)/N)
+Qx4 &amp;lt;- sum(x^4) - sum(x^2)^2/N
+t &amp;lt;- qt(0.975, N - 3)
+
+# Para graficar la incertidumbre vs concentración, primero debemos crear una
+# función que tome un X (una concentración) y calcule el Y (incertidumbre)
+Ux &amp;lt;- function(x) {
+    U &amp;lt;- s.y*t/(b + 2*c*x) * sqrt(
+    1/N + 1/N.hat + ((x - mu.x)^2*Qx4 + (x^2 - sq.x/N)^2 * Qxx -  
+    2*(x - mu.x)*(x^2 - sq.x/N)*Qx3)/
+    (Qx4 * Qxx - Qx3^2))
+    return(unname(U))
+}
+
+# Graficamos concentración (X) vs Incertidumbre (Y)
+
+plot(x, Ux(x), type = &amp;#39;n&amp;#39;,
+     main = &amp;#39;Concentración vs Incertidumbre de calibración&amp;#39;,
+     xlab = &amp;#39;Concentración [mg/L]&amp;#39;,
+     ylab = &amp;#39;Incertidumbre expandida [mg/L]&amp;#39;)
+lines(spline(x, Ux(x)), col = &amp;#39;red&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/index_files/figure-html/u.vs.con-1.png&#34; width=&#34;672&#34; /&gt;
+Se aprecia que la incertidumbre aumenta con la concentración en una forma no
+constante para concentraciones mayores a 20 mg/L.
+Tal como mencionamos anteriormente, el mínimo no se encuentra en el
+centro del rango de concentración como ocurre con la calibración lineal. Para
+encontrar el valor exacto de concentración que minimiza la incertidumbre en este
+rango, usamos el comando &lt;code&gt;optimize&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Busca el mínimo de la función Ux en el intervalo de 12 a 66 mg/L
+optimize(Ux, interval = c(12, 66))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## $minimum
+## [1] 20.29164
+## 
+## $objective
+## [1] 0.5808116&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La concentración que minimiza la incertidumbre es
+20.29 mg/L.&lt;/p&gt;
+&lt;p&gt;Muy entretenido, pero la vida es corta y debemos ser eficientes por lo tanto,
+para evitarnos el “tedio” de implementar la fórmula a mano, utilizaremos
+el package &lt;code&gt;investr&lt;/code&gt; el cual calcula exactamente la incertidumbre de
+calibración de un gran número de modelos de calibración, entre ellos, los
+modelos cuadráticos:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# y0 es la señal de la muestra problema y0 = 0.084 UA
+library(investr) # Cargamos la librería investr&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;investr&amp;#39; was built under R version 4.0.4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x.hat &amp;lt;- invest(fit.nolineal, data = d, y0 = y0, interval = &amp;#39;Wald&amp;#39;)
+x.hat&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   estimate      lower      upper         se 
+## 12.1672952 11.5400416 12.7945488  0.2652656&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;donde:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;estimate&lt;/code&gt; es la concentración de la muestra problema&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;upper&lt;/code&gt; es el extremo superior de la incertidumbre expandida &lt;span class=&#34;math inline&#34;&gt;\(I(\hat{x})\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lower&lt;/code&gt; es el extremo inferior de la incertidumbre expandida &lt;span class=&#34;math inline&#34;&gt;\(I(\hat{x})\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;se&lt;/code&gt; es la incertidumbre estándar de calibración &lt;span class=&#34;math inline&#34;&gt;\(u_{\hat{x}}\)&lt;/span&gt;, la cual es
+exactamente igual a la obtenida por la fórmula anterior
+&lt;span class=&#34;math inline&#34;&gt;\(u_{\hat{x}} = \frac{U_{\hat{x}}}{k} = 0.27\, \, \text{mg/L}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note que si quisiéramos obener &lt;span class=&#34;math inline&#34;&gt;\(I(\hat{x})\)&lt;/span&gt; a partir de esta tabla, tendríamos
+que hacer la siguiente operación &lt;span class=&#34;math inline&#34;&gt;\(I(\hat{x}) =\)&lt;/span&gt; &lt;code&gt;upper&lt;/code&gt; - &lt;code&gt;estimate&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x.hat$upper - x.hat$estimate&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 0.6272536&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;No podemos usar el package &lt;code&gt;chemCal&lt;/code&gt; que utilizamos
+en un &lt;a href=&#34;https://www.analytical.cl/post/como-calcular-la-incertidumbre-de-una-curva-de-calibracion/&#34;&gt;post anterior&lt;/a&gt;
+para estimar la incertidumbre de calibración, porque este package sólo soporta
+calibraciones lineales.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;estimación-de-incertidumbre-mediante-guía-iso-gum&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Estimación de incertidumbre mediante Guía ISO GUM&lt;/h2&gt;
+&lt;p&gt;Ya que la señal instrumental es una función de la concentración, entonces,
+podemos utilizar la aproximación ISO GUM clásica para estimar la incertidumbre
+de calibración. Por “clásica” me refiero a utilizar la aproximación de Taylor
+con las derivadas parciales. Esta guía dice lo siguiente:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Expresar el mensurando como una ecuación de medición a través de una relación
+funcional con las magnitudes de entrada. En este caso el mensurando es la
+concentración &lt;span class=&#34;math inline&#34;&gt;\(\hat{x}\)&lt;/span&gt; cuya ecuación de medición es la solución de la ecuación
+cuadrática &lt;span class=&#34;math inline&#34;&gt;\(y_{0} = a + b\hat{x} + c\hat{x^2}\)&lt;/span&gt; donde &lt;span class=&#34;math inline&#34;&gt;\(y_{0}\)&lt;/span&gt; es la señal de la
+muestra problema:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+\hat{x} = \frac{-b \pm \sqrt{b^2 - 4(a - y_{0})c}}{2c}
+\]&lt;/span&gt;
+2. Identificación de las fuentes de incertidumbre. Al observar la ecuación de
+medición identificamos las siguientes fuentes de incertidumbre:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Parámetros del modelo cuadrático: &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(c\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Señal instrumental de la muestra problema &lt;span class=&#34;math inline&#34;&gt;\(y_{0}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Evaluación de las fuentes de incertidumbre:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Las incertidumbres estándar de los parámetros del modelo pueden ser obtenidas
+directamente del ajuste cuadrático &lt;code&gt;fit.nolineal&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# parámetros del modelo
+a &amp;lt;- fit.nolineal$coeff[1]
+b &amp;lt;- fit.nolineal$coeff[2]
+c &amp;lt;- fit.nolineal$coeff[3]
+
+# las incertidumbres estándar de a, b y c las obtenemos con la función summary
+ua &amp;lt;- summary(fit.nolineal)$coefficients[1, 2]
+ub &amp;lt;- summary(fit.nolineal)$coefficients[2, 2]
+uc &amp;lt;- summary(fit.nolineal)$coefficients[3, 2]&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;La incertidumbre estándar de la señal instrumental de la muestra problema
+también puede obtenerse del ajuste cuadrático y corresponde a la
+desviación estándar residual:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;uy0 &amp;lt;- summary(fit.nolineal)$sigma
+y0 &amp;lt;- 0.084 # dato del problema, es decir, la absorbancia de la muestra&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Determinación de la incertidumbre estándar combinada &lt;span class=&#34;math inline&#34;&gt;\(u_{\hat{x}}\)&lt;/span&gt; a través
+de la expresión:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+u_{\hat{x}}^2 = \left( \frac{\partial{\hat{x}}}{\partial{y_{0}}}\right) ^{2} (u_{y_{0}})^{2} + 
+\left( \frac{\partial{\hat{x}}}{\partial{a}}\right) ^{2} (u_{a})^{2} + 
+\left( \frac{\partial{\hat{x}}}{\partial{b}}\right) ^{2} (u_{b})^{2} +
+\left( \frac{\partial{\hat{x}}}{\partial{c}}\right )^{2} (u_{c})^{2}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;“sólo” nos falta obtener las derivadas parciales (aguante ese código &lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt;):&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+\begin{aligned}
+\frac{\partial{\hat{x}}}{\partial{y_{0}}} &amp;amp;= 
+\frac{1}{\sqrt{b^{2} - 4c(a-y_{0})}} \\
+\frac{\partial{\hat{x}}}{\partial{a}} &amp;amp;=
+  \frac{-1}{\sqrt{b^{2} - 4c(a-y_{0})}} \\
+\frac{\partial{\hat{x}}}{\partial{b}} &amp;amp;=
+\frac{-1 + \frac{b}{\sqrt{b^{2} - 4c(a-y_{0})}}}{2c} \\
+\frac{\partial{\hat{x}}}{\partial{c}} &amp;amp;=
+  \frac{-a + y_{0}}{c\sqrt{b^{2} - 4c(a-y_{0})}} - 
+  \frac{-b + \sqrt{b^{2} - 4c(a-y_{0})}}{2c^{2}}
+\end{aligned}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;¡Listo! ahora debemos evaluar las expresiones. Pero como soy flojo,
+prefiero usar el excelente package &lt;code&gt;metRology&lt;/code&gt; que hará todo el trabajo por
+mí:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(metRology) # cargamos la librería&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;metRology&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:base&amp;#39;:
+## 
+##     cbind, rbind&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;expr &amp;lt;- expression((-b + sqrt(b^2 - 4*(a - y0)*c))/(2*c)) # ecuación de medición
+x &amp;lt;- list(a = a, b = b, c = c, y0 = y0) # valores de cada X input
+u &amp;lt;- c(ua, ub, uc, uy0) # incertidumbres estándar de cada X input
+u.GUM &amp;lt;- uncert(expr, x, u, method = &amp;#39;GUM&amp;#39;) # Usamos el método GUM
+u.GUM&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Uncertainty evaluation
+## 
+## Call:
+##   uncert.expression(obj = expr, x = x, u = u, method = &amp;quot;GUM&amp;quot;)
+## 
+## Expression: (-b + sqrt(b^2 - 4 * (a - y0) * c))/(2 * c)
+## 
+## Evaluation method:  GUM 
+## 
+## Uncertainty budget:
+##    x             u            c           u.c        
+## a  -5.621212e-03 2.474778e-03   -141.6217 -0.35048212
+## b   7.670455e-03 1.420320e-04  -1723.1492 -0.24474238
+## c  -2.504209e-05 1.787394e-06 -20966.0252 -0.03747454
+## y0  8.400000e-02 1.478563e-03    141.6217  0.20939648
+## 
+##    y:  12.16727
+## u(y):  0.4774807&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;¿What? ¿Por qué obtuvimos una incertidumbre estándar de 0.477
+y no la que calculamos con la ecuación de la norma ISO 0.265?
+Por la sencilla razón de que los parámetros de un modelo cuadrático no son
+independientes, sus covarianzas no son 0. Es más, algunas de las covarianzas
+son negativas. Observe la siguiente figura que fue obtenida simulando
+curvas de calibración cuadráticas. En la figura se muestra las correlaciones
+entre los tres parámetros del modelo no lineal:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Simularemos p = 200 curvas de calibración cuadráticas a partir de los datos 
+# empíricos 
+
+p &amp;lt;- 200 # Número de simulaciones
+a.sim &amp;lt;- numeric(p) # vector que guardará el parámetro a
+b.sim &amp;lt;- numeric(p) # vector que guardará el parámetro b
+c.sim &amp;lt;- numeric(p) # vector que guardará el parámetro c
+
+# Hacemos un loop
+for(i in 1:p){
+  x.sim &amp;lt;- seq(12, 66, by = 6)
+  y.sim &amp;lt;- a + b*x.sim + c*x.sim^2 + rnorm(length(x.sim), 0, uy0)
+  fit.nolineal.sim &amp;lt;- lm(y.sim ~ x.sim + I(x.sim^2))
+  a.sim[i] &amp;lt;- fit.nolineal.sim$coeff[1]
+  b.sim[i] &amp;lt;- fit.nolineal.sim$coeff[2]
+  c.sim[i] &amp;lt;- fit.nolineal.sim$coeff[3]
+}
+
+# guardamos los parámetros simulados en un data frame que llamamos param.sim
+param.sim &amp;lt;- data.frame(a.sim, b.sim, c.sim) 
+                                                
+# graficamos los parámetros simulados
+plot(param.sim)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Se advierte claramente que existe una correlación negativa entre los parámetros
+&lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt;, además entre &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(c\)&lt;/span&gt;. La correlación entre &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; y &lt;span class=&#34;math inline&#34;&gt;\(c\)&lt;/span&gt; es positiva.
+En rigor, habría que incorporar las derivadas parciales cruzadas y las
+covarianzas entre los parámetros. De sólo pensarlo, me dan ganas de
+procastinar aún más la escritura de este post, así que recurriremos al
+package &lt;code&gt;metRology&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;La parte “fácil” es obtener la matriz de covarianzas de los parámetros del
+modelo con el comando &lt;code&gt;vcov&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;v &amp;lt;- vcov(fit.nolineal)
+colnames(v) &amp;lt;- c(&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;) # solo cosmética para que aparezcan los nombres
+rownames(v) &amp;lt;- c(&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;) # de los parámetros (es opcional)
+v&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##               a             b             c
+## a  6.124524e-06 -3.337187e-07  3.910406e-09
+## b -3.337187e-07  2.017310e-08 -2.491926e-10
+## c  3.910406e-09 -2.491926e-10  3.194776e-12&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La diagonal de esta matriz es precisamente la incertidumbre estándar al
+cuadrado de los parámetros (a.k.a sus varianzas). Si queremos, también podemos
+expresarla como matriz de correlaciones con el comando &lt;code&gt;cov2cor&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;param.cor &amp;lt;- cov2cor(v)
+param.cor&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##            a          b          c
+## a  1.0000000 -0.9494193  0.8840269
+## b -0.9494193  1.0000000 -0.9815865
+## c  0.8840269 -0.9815865  1.0000000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;En la diagonal de esta matriz obviamente esperamos correlación 1. Se observa
+claramente la alta correlación entre los parámetros, como dijimos anteriormente,
+algunas de ellas son negativas.&lt;/p&gt;
+&lt;p&gt;La parte “difícil” es que debemos incorporar la variable señal
+instrumental de la muestra problema &lt;span class=&#34;math inline&#34;&gt;\(y_{0}\)&lt;/span&gt;, la cual obviamente es independiente
+de los parámetros del modelo:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Incorporamos la variable y0 que es independiente de los parámetros
+v &amp;lt;- rbind(v, y0 = rep(0, 3)) 
+v &amp;lt;- cbind(v, y0 = rep(0, 4))
+v[4, 4] &amp;lt;- uy0^2 # Asignamos al elemento de la 4a fila y 4a columna  
+                 # la varianza de y0
+v&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                a             b             c           y0
+## a   6.124524e-06 -3.337187e-07  3.910406e-09 0.000000e+00
+## b  -3.337187e-07  2.017310e-08 -2.491926e-10 0.000000e+00
+## c   3.910406e-09 -2.491926e-10  3.194776e-12 0.000000e+00
+## y0  0.000000e+00  0.000000e+00  0.000000e+00 2.186147e-06&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ahora, incorporamos las covarianzas en el cálculo por método GUM:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;u.GUM.cov &amp;lt;- uncert(expr, x, cov = v, method = &amp;quot;GUM&amp;quot;)
+u.GUM.cov&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Uncertainty evaluation
+## 
+## Call:
+##   uncert.expression(obj = expr, x = x, method = &amp;quot;GUM&amp;quot;, cov = v)
+## 
+## Expression: (-b + sqrt(b^2 - 4 * (a - y0) * c))/(2 * c)
+## 
+## Evaluation method:  GUM 
+## 
+## Uncertainty budget:
+##    x             u            c           u.c        
+## a  -5.621212e-03 2.474778e-03   -141.6217 -0.35048212
+## b   7.670455e-03 1.420320e-04  -1723.1492 -0.24474238
+## c  -2.504209e-05 1.787394e-06 -20966.0252 -0.03747454
+## y0  8.400000e-02 1.478563e-03    141.6217  0.20939648
+## 
+##    y:  12.16727
+## u(y):  0.2651904&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;¡Perfecto!, ahora sí, al incluir las covarianzas obtenemos resultados consistentes
+con el método descrito en la norma ISO 8466-2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;estimación-con-el-método-de-monte-carlo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Estimación con el Método de Monte Carlo&lt;/h2&gt;
+&lt;p&gt;No detallaremos aquí cómo funciona el método de Monte Carlo, puede consultarlo
+en &lt;a href=&#34;https://www.analytical.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo/&#34;&gt;este post&lt;/a&gt; y en
+&lt;a href=&#34;https://www.analytical.cl/post/validacion-calculos-incertidumbre-quimica-analitica-metodo-monte-carlo-parte2/&#34;&gt;este otro&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sería super simple si usamos el package &lt;code&gt;metRology&lt;/code&gt;, el problema es que el
+package lanza un error numérico cuando existen covarianzas negativas. Probé
+el ejemplo que incluye el manual de &lt;code&gt;metRology&lt;/code&gt; y el error se repite. Es un
+problema al evaluar la suma de las correlaciones. Le
+consulté al autor Steve Ellison, sin embargo, a la fecha (09 de junio 2020)
+aún no tengo respuesta, a pesar de que Steve siempre responde las consultas en
+forma muy expedita. Otros usuarios han tenido un problema similar y se ha
+abierto un hilo en &lt;a href=&#34;https://stackoverflow.com/questions/60971950/error-in-eigensigma-symmetric-true-0-x-0-matrix-in-metrology-uncertmc-wit/62119518#62119518&#34;&gt;stackoverflow&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Por lo tanto, implementamos el método de Monte Carlo “a mano” utilizando el
+package &lt;code&gt;MASS&lt;/code&gt; el cual permite generar muestras aleatorias multivariadas
+incluyendo las correlaciones:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# No funciona metRology MC así que lo hicimos a mano
+library(MASS) # cargamos la librería&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;MASS&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:patchwork&amp;#39;:
+## 
+##     area&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Generamos n muestras aleatorias multivariadas, cuyas medias 
+# corresponden a los valores de a, b, c e y0
+# La matriz de covarianza Sigma = v la calculamos anteriormente
+
+set.seed(123) # Para que Ud. obtenga los mismos resultados
+muestra.MC &amp;lt;- mvrnorm(n = 10000, mu = c(a, b, c, y0), Sigma = v, empirical = T)
+colnames(muestra.MC) &amp;lt;- c(&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;y0&amp;#39;) # solo cosmética
+muestra.MC &amp;lt;- data.frame(muestra.MC) # lo guardamos como data.frame
+head(muestra.MC) # muestra las primeras n = 6 simulaciones&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##              a           b             c         y0
+## 1 -0.004872147 0.007615757 -2.422806e-05 0.08771566
+## 2 -0.004584974 0.007614935 -2.439880e-05 0.08385741
+## 3 -0.005903886 0.007685426 -2.569142e-05 0.08643112
+## 4 -0.004770996 0.007561121 -2.367442e-05 0.08417975
+## 5 -0.003113309 0.007559284 -2.403774e-05 0.08478106
+## 6 -0.006100136 0.007724920 -2.626908e-05 0.08644533&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Cada fila es una simulación. Si, por ejemplo, calculamos el promedio de cada
+variable simulada, obtenemos un valor similar a los valores empíricos. A mayor
+número de simulaciones, más nos acercamos a valores que asumimos como
+verdaderos.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;apply(muestra.MC, 2, mean) # promedio de cada columna&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##             a             b             c            y0 
+## -5.621212e-03  7.670455e-03 -2.504209e-05  8.400000e-02&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Bien, lo que tenemos que hacer es que en cada simulación debemos
+calcular la concentración de la muestra:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# cargaré estas librerías sólo para facilitar la manipulación de los datos
+library(magrittr)
+library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## -- Attaching packages --------------------------------------- tidyverse 1.3.0 --&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## v tibble  3.1.5     v dplyr   1.0.7
+## v tidyr   1.1.4     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1
+## v purrr   0.3.4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;tibble&amp;#39; was built under R version 4.0.5&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;tidyr&amp;#39; was built under R version 4.0.5&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;dplyr&amp;#39; was built under R version 4.0.5&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;forcats&amp;#39; was built under R version 4.0.4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x ggpmisc::annotate() masks ggplot2::annotate()
+## x tidyr::extract()    masks magrittr::extract()
+## x dplyr::filter()     masks stats::filter()
+## x dplyr::lag()        masks stats::lag()
+## x dplyr::select()     masks MASS::select()
+## x purrr::set_names()  masks magrittr::set_names()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Creamos una nueva variable llamada x.hat que corresponde a la concentración de
+# la muestra
+muestra.MC &amp;lt;- muestra.MC %&amp;gt;% 
+  mutate(x.hat = (-b + sqrt(b^2 - 4*(a - y0)*c))/(2*c))
+head(muestra.MC) # muestra las primeras n = 6 simulaciones&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##              a           b             c         y0    x.hat
+## 1 -0.004872147 0.007615757 -2.422806e-05 0.08771566 12.66792
+## 2 -0.004584974 0.007614935 -2.439880e-05 0.08385741 12.08205
+## 3 -0.005903886 0.007685426 -2.569142e-05 0.08643112 12.53997
+## 4 -0.004770996 0.007561121 -2.367442e-05 0.08417975 12.23276
+## 5 -0.003113309 0.007559284 -2.403774e-05 0.08478106 12.09232
+## 6 -0.006100136 0.007724920 -2.626908e-05 0.08644533 12.51252&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La última columna corresponde a la concentración calculada para cada
+simulación. Por lo tanto, si queremos obtener la incertidumbre estándar de
+la concentración, basta calcular la desviación estándar de esa columna:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mu.x.hat.MC &amp;lt;- mean(muestra.MC$x.hat) # valor promedio de concentración
+u.x.hat.MC &amp;lt;- sd(muestra.MC$x.hat) # incertidumbre estándar de la concentración
+u.x.hat.MC&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 0.265321&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se obtiene una incertidumbre estándar de calibración de
+0.265 mg/L, la
+cual es consistente con los otros métodos estudiados. La siguiente
+figura muestra el histograma de las concentraciones simuladas:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;hist(muestra.MC$x.hat, 
+     breaks = 20,
+     main = &amp;#39;Concentraciones simuladas por Monte Carlo&amp;#39;,
+     xlab = &amp;#39;Concentración [mg/L]&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.metrologiaquimica.cl/post/incertidumbre-de-una-calibracion-no-lineal/index_files/figure-html/plot.u.MC-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Finalmente, la siguiente tabla resume los resultados de los tres métodos
+considerando la incertidumbre estándar de calibración:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla &amp;lt;- data.frame(Ix/t, u.GUM$u.y, u.GUM.cov$u.y, u.x.hat.MC)
+knitr::kable(tabla, 
+             rownames = NA,
+             col.names = c(&amp;#39;ISO&amp;#39;, &amp;#39;GUM&amp;#39;, &amp;#39;GUM/Covarianzas&amp;#39;, &amp;#39;Monte Carlo&amp;#39;),
+             align = &amp;#39;l&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;ISO&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;GUM&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;GUM/Covarianzas&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Monte Carlo&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;0.2651904&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.4774807&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.2651904&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.265321&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Se aprecia claramente una excelente concordancia entre los tres métodos.
+Sin embargo, para que el método GUM entregue resultados correctos, es necesario
+incorporar las covarianzas entre las variables input.&lt;/p&gt;
+&lt;p&gt;En un próximo post exploraremos el método &lt;em&gt;Bootstrap&lt;/em&gt;, un método estadístico
+por excelencia para estimar incertidumbre sin utilizar un modelo de medición…&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;¡Dejad que los datos hablen!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bibliografía&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Bibliografía&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Norma ISO 8466-2:2001 &lt;em&gt;Water quality – Calibration and evaluation of
+analytical methods and estimation of performance characteristics – Part 2:
+Calibration strategy for non-linear second-order calibration functions.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Brandon M. Greenwell and Christine M. Schubert Kabban (2014). investr: An R
+Package for Inverse Estimation. The R Journal, 6(1), 90-100. URL &lt;a href=&#34;http://journal.r-project.org/archive/2014-1/greenwell-kabban.pdf&#34; class=&#34;uri&#34;&gt;http://journal.r-project.org/archive/2014-1/greenwell-kabban.pdf&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;NIST/SEMATECH e-Handbook of Statistical Methods,
+&lt;em&gt;Uncertainty for quadratic calibration using propagation of error&lt;/em&gt;,
+&lt;a href=&#34;https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc3671.htm&#34; class=&#34;uri&#34;&gt;https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc3671.htm&lt;/a&gt;,
+09 de junio 2020.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nonlinear multivariate calibration methods in analytical chemistry
+Sonja Sekulic, Mary Beth Seasholtz, Ziyi Wang, Bruce R. Kowalski, Samuel E.
+Lee, and Bradley R. Holt &lt;em&gt;Analytical Chemistry 1993 65 (19), 835A-845A&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Writing technical content in Academic</title>
       <link>https://www.metrologiaquimica.cl/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
@@ -282,7 +1092,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-247861935&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-641729583&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -292,7 +1102,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-247861935&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-641729583&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
