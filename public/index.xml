@@ -5,7 +5,7 @@
     <link>https://www.metrologiaquimica.cl/</link>
       <atom:link href="https://www.metrologiaquimica.cl/index.xml" rel="self" type="application/rss+xml" />
     <description>Analytical</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Mon, 15 Aug 2022 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Mon, 15 Aug 2022 18:15:00 +0000</lastBuildDate>
     <image>
       <url>https://www.metrologiaquimica.cl/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Analytical</title>
@@ -110,8 +110,32 @@ The variance of the distribution is $\sigma^{2}$.
     <item>
       <title>Curso Herramientas de Diseño e Interpretación Estadística de las Mediciones</title>
       <link>https://www.metrologiaquimica.cl/talk/curso-herramientas-de-diseno-e-interpretacion-estadistica-de-las-mediciones/</link>
-      <pubDate>Mon, 15 Aug 2022 13:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Aug 2022 18:15:00 +0000</pubDate>
       <guid>https://www.metrologiaquimica.cl/talk/curso-herramientas-de-diseno-e-interpretacion-estadistica-de-las-mediciones/</guid>
+      <description>&lt;!---
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Diplomado en Metrología</title>
+      <link>https://www.metrologiaquimica.cl/talk/diplomado-en-metrologia/</link>
+      <pubDate>Mon, 15 Aug 2022 18:15:00 +0000</pubDate>
+      <guid>https://www.metrologiaquimica.cl/talk/diplomado-en-metrologia/</guid>
       <description>&lt;!---
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -1092,7 +1116,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-641729583&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-625391748&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1102,7 +1126,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-641729583&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-625391748&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
