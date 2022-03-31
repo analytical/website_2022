@@ -4,7 +4,7 @@ theme: "starter-hugo-academic"
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Testing # Website name
+title: Analytical # Website name
 baseurl: 'https://www.metrologiaquimica.cl/' # Website URL
 copyright: '2022' # Footer text, e.g. '© {year} Me'
 
