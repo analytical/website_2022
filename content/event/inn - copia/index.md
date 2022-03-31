@@ -1,7 +1,7 @@
 ---
-abstract: En este curso aprenderás herramientas estadísticas modernas y su 
-  aplicación en Química Analítica. Usaremos el potente lenguaje de programación   `R` y librerías especializadas en Metrología Química y Validación de 
-  Métodos Analíticos. Clases online y streaming.
+abstract: En este diplomado, el primero en Metrología, dictaré el módulo 
+  relacionado con Métodos de Monte Carlo para evaluar la incertidumbre de medición 
+  y métodos alternativos a la guía ISO GUM. Usaremos el lenguaje de programación `R`.
 address:
   city: Santiago
   country: Chile
