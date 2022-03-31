@@ -32,7 +32,7 @@ address:
 coordinates:
   latitude: '-33.44116640036937'
   longitude: '-70.65321704186569'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+directions: 
 office_hours:
   - 'Monday 18:15 to 13:00'
   - 'Wednesday 09:00 to 10:00'
@@ -60,7 +60,7 @@ contact_links:
 main_menu:
   enable: true
   align: l
-  show_logo: true
+  show_logo: false
   show_language: false
   show_day_night: true
   show_search: true
