@@ -25,7 +25,7 @@ experience:
   - title: Gestor de Calidad de Billetes & Monedas
     company: Banco Central de Chile
     company_url: 'www.bcentral.cl'
-    company_logo: 
+    company_logo:
     location: Santiago
     date_start: '2018-07-15'
     date_end: ''
