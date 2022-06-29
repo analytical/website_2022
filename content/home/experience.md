@@ -29,12 +29,12 @@ experience:
     location: Santiago
     date_start: '2018-07-15'
     date_end: ''
-    description: |2-
-        Responsibilities include:
-        
-        * Control de Calidad
-        * Diseño de muestreo de aceptación
-        * Gestión de Certificación ISO 9001
+    # description: |2-
+    #     Responsibilities include:
+    #     
+    #     * Control de Calidad
+    #     * Diseño de muestreo de aceptación
+    #     * Gestión de Certificación ISO 9001
         
   - title: Estadístico de calidad y Químico de Desarrollo
     company: Bureau Veritas Chile - División Minería
