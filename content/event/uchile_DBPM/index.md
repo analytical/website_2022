@@ -26,7 +26,7 @@ projects:
 - internal-project
 publishDate: "2017-01-01T00:00:00Z"
 slides: example
-summary: Métodos Estadísticos modernos aplicados en procesos de Validación Farmacéutica
+summary: Aplicación de métodos estadísticos en validación farmacéutica con un fuerte componenete computacional usando el lenguaje R
 tags: []
 title: Métodos Estadísticos modernos aplicados en Validación Farmacéutica
 url_code: ""
