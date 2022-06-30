@@ -20,7 +20,7 @@ content:
   form:
     provider: formspree
     formspree:
-      id: 'https://formspree.io/cvgomez@gmail.com'
+      id: cvgomez@gmail.com
     netlify:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: false
