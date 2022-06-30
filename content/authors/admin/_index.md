@@ -41,7 +41,7 @@ social:
   link: https://github.com/analytical
 - icon: linkedin
   icon_pack: fab
-  link: www.linkedin.com/in/cjgomezs
+  link: https://www.linkedin.com/in/cjgomezs
 superuser: true
 title: Carlos Gómez
 ---
