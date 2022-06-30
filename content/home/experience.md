@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Gestor de Calidad de Billetes & Monedas
     company: Banco Central de Chile
-    company_url: 'www.bcentral.cl'
+    company_url: 'https://www.bcentral.cl'
     company_logo:
     location: Santiago
     date_start: '2018-07-15'
@@ -38,7 +38,7 @@ experience:
         
   - title: Estadístico de calidad y Químico de Desarrollo
     company: Bureau Veritas Chile - División Minería
-    company_url: 'www.bureauveritas.cl'
+    company_url: 'https://www.bureauveritas.cl'
     company_logo:
     location: Santiago
     date_start: '2013-05-06'
@@ -47,7 +47,7 @@ experience:
     
   - title: Jefe de Proyecto Unidad de Estadística y Transferencia Tecnológica
     company: Centro de Metrología Química - Fundación Chile
-    company_url: 'www.fch.cl'
+    company_url: 'https://www.fch.cl'
     company_logo:
     location: Santiago
     date_start: '2004-03-01'
