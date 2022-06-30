@@ -33,15 +33,15 @@ social:
   icon_pack: fab
   label: Follow me on Twitter
   link: https://twitter.com/quimiometrico
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Carlos-Gomez-17
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/analytical
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: www.linkedin.com/in/cjgomezs
 superuser: true
 title: Carlos Gómez
 ---
