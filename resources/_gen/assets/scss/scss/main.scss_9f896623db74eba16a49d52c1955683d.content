@@ -9556,3 +9556,12 @@ div.chart {
 
 .portrait-title h2 {
   font-size: 1.5rem; }
+
+/* assets/scss/custom.scss*/
+.article-container {
+  max-width: 760px; }
+
+.article-style {
+  overflow: visible; }
+
+/*...*/
