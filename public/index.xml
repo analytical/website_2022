@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Metrología Química</title>
+    <title>Analytical</title>
     <link>https://www.metrologiaquimica.cl/</link>
       <atom:link href="https://www.metrologiaquimica.cl/index.xml" rel="self" type="application/rss+xml" />
-    <description>Metrología Química</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-cl</language><copyright>2022</copyright><lastBuildDate>Wed, 21 Sep 2022 18:15:00 +0000</lastBuildDate>
+    <description>Analytical</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-cl</language><copyright>@ 2022 Carlos Gómez</copyright><lastBuildDate>Wed, 21 Sep 2022 18:15:00 +0000</lastBuildDate>
     <image>
       <url>https://www.metrologiaquimica.cl/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
-      <title>Metrología Química</title>
+      <title>Analytical</title>
       <link>https://www.metrologiaquimica.cl/</link>
     </image>
     
@@ -982,20 +982,6 @@ Sonja Sekulic, Mary Beth Seasholtz, Ziyi Wang, Bruce R. Kowalski, Samuel E.
 Lee, and Bradley R. Holt &lt;em&gt;Analytical Chemistry 1993 65 (19), 835A-845A&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>https://www.metrologiaquimica.cl/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.metrologiaquimica.cl/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -4464,41 +4450,11 @@ siéntase libre de criticarlo. Nos vemos.&lt;/p&gt;
     </item>
     
     <item>
-      <title>An example journal article</title>
+      <title>Natural attributes of Chilean honeys modified by the presence of neonicotinoids residues</title>
       <link>https://www.metrologiaquimica.cl/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       <guid>https://www.metrologiaquimica.cl/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example conference paper</title>
-      <link>https://www.metrologiaquimica.cl/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.metrologiaquimica.cl/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
